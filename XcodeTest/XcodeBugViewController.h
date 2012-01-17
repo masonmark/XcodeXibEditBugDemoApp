@@ -13,6 +13,7 @@
     IBOutlet NSView *outlet1;
     IBOutlet NSView *outlet2;
     IBOutlet NSView *outlet3;
+    IBOutlet NSView *outlet4;
 }
 
 @end

@@ -54,6 +54,7 @@
 		93DFB62414C53258003B6F71 /* XcodeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeBugViewController.h; sourceTree = "<group>"; };
 		93DFB62514C53258003B6F71 /* XcodeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeBugViewController.m; sourceTree = "<group>"; };
 		93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeBugViewController.xib; sourceTree = "<group>"; };
+		93FC2F0114C554D0007D0CAC /* README-NakaharaPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "README-NakaharaPreferences.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 		93018B5914C509EA00F7802A /* XcodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				93FC2F0114C554D0007D0CAC /* README-NakaharaPreferences.h */,
 				93018B6514C509EA00F7802A /* AppDelegate.h */,
 				93018B6614C509EA00F7802A /* AppDelegate.m */,
 				93018B6814C509EA00F7802A /* MainMenu.xib */,

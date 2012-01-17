@@ -17,6 +17,8 @@
 		93018B7314C509EA00F7802A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93018B5314C509EA00F7802A /* Cocoa.framework */; };
 		93018B7B14C509EA00F7802A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93018B7914C509EA00F7802A /* InfoPlist.strings */; };
 		93018B7E14C509EA00F7802A /* XcodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93018B7D14C509EA00F7802A /* XcodeTestTests.m */; };
+		9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */; };
+		9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */; };
 		93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E6E14C533E70093A416 /* NakaharaBitField.m */; };
 		93A83EB814C533E80093A416 /* NakaharaBug3293160Workaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7014C533E70093A416 /* NakaharaBug3293160Workaround.m */; };
 		93A83EB914C533E80093A416 /* NakaharaCoreImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7214C533E70093A416 /* NakaharaCoreImage.m */; };
@@ -86,6 +88,10 @@
 		93018B7A14C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93018B7C14C509EA00F7802A /* XcodeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeTestTests.h; sourceTree = "<group>"; };
 		93018B7D14C509EA00F7802A /* XcodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeTestTests.m; sourceTree = "<group>"; };
+		9385C64214C5396B00D595B8 /* NakaharaFileManager2010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileManager2010.h; sourceTree = "<group>"; };
+		9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileManager2010.m; sourceTree = "<group>"; };
+		9385C64414C5396B00D595B8 /* NakaharaMacVolumeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaMacVolumeList.h; sourceTree = "<group>"; };
+		9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaMacVolumeList.m; sourceTree = "<group>"; };
 		93A83E6D14C533E70093A416 /* NakaharaBitField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaBitField.h; sourceTree = "<group>"; };
 		93A83E6E14C533E70093A416 /* NakaharaBitField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaBitField.m; sourceTree = "<group>"; };
 		93A83E6F14C533E70093A416 /* NakaharaBug3293160Workaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaBug3293160Workaround.h; sourceTree = "<group>"; };
@@ -189,6 +195,7 @@
 		93018B4414C509EA00F7802A = {
 			isa = PBXGroup;
 			children = (
+				9385C64114C5396B00D595B8 /* NakaharaFoundation */,
 				93018B5914C509EA00F7802A /* XcodeTest */,
 				93A83E6C14C533E70093A416 /* NakaharaCore */,
 				93018B7614C509EA00F7802A /* XcodeTestTests */,
@@ -269,6 +276,18 @@
 				93018B7914C509EA00F7802A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9385C64114C5396B00D595B8 /* NakaharaFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				9385C64214C5396B00D595B8 /* NakaharaFileManager2010.h */,
+				9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */,
+				9385C64414C5396B00D595B8 /* NakaharaMacVolumeList.h */,
+				9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */,
+			);
+			name = NakaharaFoundation;
+			path = ../iGetFamily/NakaharaSharedCode/NakaharaFoundation;
 			sourceTree = "<group>";
 		};
 		93A83E6C14C533E70093A416 /* NakaharaCore */ = {
@@ -500,6 +519,8 @@
 				93A83ED714C533E80093A416 /* NSMutableArray+NakaharaCore.m in Sources */,
 				93A83ED814C533E80093A416 /* NSMutableData+NakaharaCore.m in Sources */,
 				93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */,
+				9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */,
+				9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

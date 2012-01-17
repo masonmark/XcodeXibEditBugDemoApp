@@ -22,6 +22,24 @@
 		933C8FA814C54AAA00F8765B /* AlertStopIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA314C54AAA00F8765B /* AlertStopIcon.icns */; };
 		933C8FA914C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA414C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib */; };
 		933C8FAA14C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA514C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib */; };
+		93526BFB14C54BC20030CCD5 /* NakaharaColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BDA14C54BC20030CCD5 /* NakaharaColoredView.m */; };
+		93526BFC14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BDC14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.m */; };
+		93526BFD14C54BC20030CCD5 /* NakaharaDangerWindowBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 93526BDD14C54BC20030CCD5 /* NakaharaDangerWindowBackground.png */; };
+		93526BFE14C54BC20030CCD5 /* NakaharaDangerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BDF14C54BC20030CCD5 /* NakaharaDangerWindowController.m */; };
+		93526BFF14C54BC20030CCD5 /* NakaharaDangerWindowController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93526BE014C54BC20030CCD5 /* NakaharaDangerWindowController.nib */; };
+		93526C0014C54BC20030CCD5 /* NakaharaDelimitedTextImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BE214C54BC20030CCD5 /* NakaharaDelimitedTextImporter.m */; };
+		93526C0114C54BC20030CCD5 /* NakaharaDittoTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BE414C54BC20030CCD5 /* NakaharaDittoTask.m */; };
+		93526C0214C54BC20030CCD5 /* NakaharaDocumentConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BE614C54BC20030CCD5 /* NakaharaDocumentConverter.m */; };
+		93526C0314C54BC20030CCD5 /* NakaharaFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BE814C54BC20030CCD5 /* NakaharaFileManager.m */; };
+		93526C0414C54BC20030CCD5 /* NakaharaFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BEA14C54BC20030CCD5 /* NakaharaFileMonitor.m */; };
+		93526C0514C54BC20030CCD5 /* NakaharaFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BEC14C54BC20030CCD5 /* NakaharaFormatter.m */; };
+		93526C0614C54BC20030CCD5 /* NakaharaHMTMLPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BEE14C54BC20030CCD5 /* NakaharaHMTMLPage.m */; };
+		93526C0714C54BC20030CCD5 /* NakaharaHTMLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF014C54BC20030CCD5 /* NakaharaHTMLConverter.m */; };
+		93526C0814C54BC20030CCD5 /* NakaharaIconRefConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF214C54BC20030CCD5 /* NakaharaIconRefConverter.m */; };
+		93526C0914C54BC20030CCD5 /* NakaharaImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF414C54BC20030CCD5 /* NakaharaImageAndTextCell.m */; };
+		93526C0A14C54BC20030CCD5 /* NakaharaImageAndTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF614C54BC20030CCD5 /* NakaharaImageAndTextField.m */; };
+		93526C0B14C54BC20030CCD5 /* NakaharaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF814C54BC20030CCD5 /* NakaharaImageView.m */; };
+		93526C0C14C54BC20030CCD5 /* NakaharaIPAddressChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */; };
 		9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */; };
 		9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */; };
 		93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E6E14C533E70093A416 /* NakaharaBitField.m */; };
@@ -102,6 +120,41 @@
 		933C8FA314C54AAA00F8765B /* AlertStopIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertStopIcon.icns; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/AlertStopIcon.icns; sourceTree = "<group>"; };
 		933C8FA414C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "com.nakahara-informatics.nakaharasheet.progress.xib"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/com.nakahara-informatics.nakaharasheet.progress.xib"; sourceTree = "<group>"; };
 		933C8FA514C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "com.nakahara-informatics.nakaharasheet.stringentrysheet.xib"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/com.nakahara-informatics.nakaharasheet.stringentrysheet.xib"; sourceTree = "<group>"; };
+		93526BD814C54BC20030CCD5 /* NakaharaCocoaPrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaCocoaPrefixHeader.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaCocoaPrefixHeader.h; sourceTree = "<group>"; };
+		93526BD914C54BC20030CCD5 /* NakaharaColoredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaColoredView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaColoredView.h; sourceTree = "<group>"; };
+		93526BDA14C54BC20030CCD5 /* NakaharaColoredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaColoredView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaColoredView.m; sourceTree = "<group>"; };
+		93526BDB14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaCountIsOneValueTransformer.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaCountIsOneValueTransformer.h; sourceTree = "<group>"; };
+		93526BDC14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaCountIsOneValueTransformer.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaCountIsOneValueTransformer.m; sourceTree = "<group>"; };
+		93526BDD14C54BC20030CCD5 /* NakaharaDangerWindowBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NakaharaDangerWindowBackground.png; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDangerWindowBackground.png; sourceTree = "<group>"; };
+		93526BDE14C54BC20030CCD5 /* NakaharaDangerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaDangerWindowController.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDangerWindowController.h; sourceTree = "<group>"; };
+		93526BDF14C54BC20030CCD5 /* NakaharaDangerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaDangerWindowController.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDangerWindowController.m; sourceTree = "<group>"; };
+		93526BE014C54BC20030CCD5 /* NakaharaDangerWindowController.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = NakaharaDangerWindowController.nib; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDangerWindowController.nib; sourceTree = "<group>"; };
+		93526BE114C54BC20030CCD5 /* NakaharaDelimitedTextImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaDelimitedTextImporter.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDelimitedTextImporter.h; sourceTree = "<group>"; };
+		93526BE214C54BC20030CCD5 /* NakaharaDelimitedTextImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaDelimitedTextImporter.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDelimitedTextImporter.m; sourceTree = "<group>"; };
+		93526BE314C54BC20030CCD5 /* NakaharaDittoTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaDittoTask.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDittoTask.h; sourceTree = "<group>"; };
+		93526BE414C54BC20030CCD5 /* NakaharaDittoTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaDittoTask.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDittoTask.m; sourceTree = "<group>"; };
+		93526BE514C54BC20030CCD5 /* NakaharaDocumentConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaDocumentConverter.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDocumentConverter.h; sourceTree = "<group>"; };
+		93526BE614C54BC20030CCD5 /* NakaharaDocumentConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaDocumentConverter.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaDocumentConverter.m; sourceTree = "<group>"; };
+		93526BE714C54BC20030CCD5 /* NakaharaFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaFileManager.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaFileManager.h; sourceTree = "<group>"; };
+		93526BE814C54BC20030CCD5 /* NakaharaFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaFileManager.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaFileManager.m; sourceTree = "<group>"; };
+		93526BE914C54BC20030CCD5 /* NakaharaFileMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaFileMonitor.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaFileMonitor.h; sourceTree = "<group>"; };
+		93526BEA14C54BC20030CCD5 /* NakaharaFileMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaFileMonitor.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaFileMonitor.m; sourceTree = "<group>"; };
+		93526BEB14C54BC20030CCD5 /* NakaharaFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaFormatter.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaFormatter.h; sourceTree = "<group>"; };
+		93526BEC14C54BC20030CCD5 /* NakaharaFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaFormatter.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaFormatter.m; sourceTree = "<group>"; };
+		93526BED14C54BC20030CCD5 /* NakaharaHMTMLPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaHMTMLPage.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaHMTMLPage.h; sourceTree = "<group>"; };
+		93526BEE14C54BC20030CCD5 /* NakaharaHMTMLPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaHMTMLPage.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaHMTMLPage.m; sourceTree = "<group>"; };
+		93526BEF14C54BC20030CCD5 /* NakaharaHTMLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaHTMLConverter.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaHTMLConverter.h; sourceTree = "<group>"; };
+		93526BF014C54BC20030CCD5 /* NakaharaHTMLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaHTMLConverter.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaHTMLConverter.m; sourceTree = "<group>"; };
+		93526BF114C54BC20030CCD5 /* NakaharaIconRefConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaIconRefConverter.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIconRefConverter.h; sourceTree = "<group>"; };
+		93526BF214C54BC20030CCD5 /* NakaharaIconRefConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaIconRefConverter.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIconRefConverter.m; sourceTree = "<group>"; };
+		93526BF314C54BC20030CCD5 /* NakaharaImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaImageAndTextCell.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageAndTextCell.h; sourceTree = "<group>"; };
+		93526BF414C54BC20030CCD5 /* NakaharaImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaImageAndTextCell.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageAndTextCell.m; sourceTree = "<group>"; };
+		93526BF514C54BC20030CCD5 /* NakaharaImageAndTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaImageAndTextField.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageAndTextField.h; sourceTree = "<group>"; };
+		93526BF614C54BC20030CCD5 /* NakaharaImageAndTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaImageAndTextField.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageAndTextField.m; sourceTree = "<group>"; };
+		93526BF714C54BC20030CCD5 /* NakaharaImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaImageView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageView.h; sourceTree = "<group>"; };
+		93526BF814C54BC20030CCD5 /* NakaharaImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaImageView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageView.m; sourceTree = "<group>"; };
+		93526BF914C54BC20030CCD5 /* NakaharaIPAddressChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaIPAddressChecker.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIPAddressChecker.h; sourceTree = "<group>"; };
+		93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaIPAddressChecker.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIPAddressChecker.m; sourceTree = "<group>"; };
 		9385C64214C5396B00D595B8 /* NakaharaFileManager2010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileManager2010.h; sourceTree = "<group>"; };
 		9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileManager2010.m; sourceTree = "<group>"; };
 		9385C64414C5396B00D595B8 /* NakaharaMacVolumeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaMacVolumeList.h; sourceTree = "<group>"; };
@@ -313,6 +366,48 @@
 			name = Uno;
 			sourceTree = "<group>";
 		};
+		93526BD614C54BA60030CCD5 /* Tres */ = {
+			isa = PBXGroup;
+			children = (
+				93526BD814C54BC20030CCD5 /* NakaharaCocoaPrefixHeader.h */,
+				93526BD914C54BC20030CCD5 /* NakaharaColoredView.h */,
+				93526BDA14C54BC20030CCD5 /* NakaharaColoredView.m */,
+				93526BDB14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.h */,
+				93526BDC14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.m */,
+				93526BDD14C54BC20030CCD5 /* NakaharaDangerWindowBackground.png */,
+				93526BDE14C54BC20030CCD5 /* NakaharaDangerWindowController.h */,
+				93526BDF14C54BC20030CCD5 /* NakaharaDangerWindowController.m */,
+				93526BE014C54BC20030CCD5 /* NakaharaDangerWindowController.nib */,
+				93526BE114C54BC20030CCD5 /* NakaharaDelimitedTextImporter.h */,
+				93526BE214C54BC20030CCD5 /* NakaharaDelimitedTextImporter.m */,
+				93526BE314C54BC20030CCD5 /* NakaharaDittoTask.h */,
+				93526BE414C54BC20030CCD5 /* NakaharaDittoTask.m */,
+				93526BE514C54BC20030CCD5 /* NakaharaDocumentConverter.h */,
+				93526BE614C54BC20030CCD5 /* NakaharaDocumentConverter.m */,
+				93526BE714C54BC20030CCD5 /* NakaharaFileManager.h */,
+				93526BE814C54BC20030CCD5 /* NakaharaFileManager.m */,
+				93526BE914C54BC20030CCD5 /* NakaharaFileMonitor.h */,
+				93526BEA14C54BC20030CCD5 /* NakaharaFileMonitor.m */,
+				93526BEB14C54BC20030CCD5 /* NakaharaFormatter.h */,
+				93526BEC14C54BC20030CCD5 /* NakaharaFormatter.m */,
+				93526BED14C54BC20030CCD5 /* NakaharaHMTMLPage.h */,
+				93526BEE14C54BC20030CCD5 /* NakaharaHMTMLPage.m */,
+				93526BEF14C54BC20030CCD5 /* NakaharaHTMLConverter.h */,
+				93526BF014C54BC20030CCD5 /* NakaharaHTMLConverter.m */,
+				93526BF114C54BC20030CCD5 /* NakaharaIconRefConverter.h */,
+				93526BF214C54BC20030CCD5 /* NakaharaIconRefConverter.m */,
+				93526BF314C54BC20030CCD5 /* NakaharaImageAndTextCell.h */,
+				93526BF414C54BC20030CCD5 /* NakaharaImageAndTextCell.m */,
+				93526BF514C54BC20030CCD5 /* NakaharaImageAndTextField.h */,
+				93526BF614C54BC20030CCD5 /* NakaharaImageAndTextField.m */,
+				93526BF714C54BC20030CCD5 /* NakaharaImageView.h */,
+				93526BF814C54BC20030CCD5 /* NakaharaImageView.m */,
+				93526BF914C54BC20030CCD5 /* NakaharaIPAddressChecker.h */,
+				93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */,
+			);
+			name = Tres;
+			sourceTree = "<group>";
+		};
 		9385C64114C5396B00D595B8 /* NakaharaFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +423,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				93526BD614C54BA60030CCD5 /* Tres */,
 				93D7454014C54B0B00DDEF83 /* Dos */,
 				933C8F9F14C54A9100F8765B /* Uno */,
 			);
@@ -511,6 +607,8 @@
 				933C8FA814C54AAA00F8765B /* AlertStopIcon.icns in Resources */,
 				933C8FA914C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib in Resources */,
 				933C8FAA14C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib in Resources */,
+				93526BFD14C54BC20030CCD5 /* NakaharaDangerWindowBackground.png in Resources */,
+				93526BFF14C54BC20030CCD5 /* NakaharaDangerWindowController.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +687,22 @@
 				93D7454B14C54B3A00DDEF83 /* NakaharaAppDelegate.m in Sources */,
 				93D7454C14C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m in Sources */,
 				93D7454D14C54B3A00DDEF83 /* NakaharaAuthenticatedTask.m in Sources */,
+				93526BFB14C54BC20030CCD5 /* NakaharaColoredView.m in Sources */,
+				93526BFC14C54BC20030CCD5 /* NakaharaCountIsOneValueTransformer.m in Sources */,
+				93526BFE14C54BC20030CCD5 /* NakaharaDangerWindowController.m in Sources */,
+				93526C0014C54BC20030CCD5 /* NakaharaDelimitedTextImporter.m in Sources */,
+				93526C0114C54BC20030CCD5 /* NakaharaDittoTask.m in Sources */,
+				93526C0214C54BC20030CCD5 /* NakaharaDocumentConverter.m in Sources */,
+				93526C0314C54BC20030CCD5 /* NakaharaFileManager.m in Sources */,
+				93526C0414C54BC20030CCD5 /* NakaharaFileMonitor.m in Sources */,
+				93526C0514C54BC20030CCD5 /* NakaharaFormatter.m in Sources */,
+				93526C0614C54BC20030CCD5 /* NakaharaHMTMLPage.m in Sources */,
+				93526C0714C54BC20030CCD5 /* NakaharaHTMLConverter.m in Sources */,
+				93526C0814C54BC20030CCD5 /* NakaharaIconRefConverter.m in Sources */,
+				93526C0914C54BC20030CCD5 /* NakaharaImageAndTextCell.m in Sources */,
+				93526C0A14C54BC20030CCD5 /* NakaharaImageAndTextField.m in Sources */,
+				93526C0B14C54BC20030CCD5 /* NakaharaImageView.m in Sources */,
+				93526C0C14C54BC20030CCD5 /* NakaharaIPAddressChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

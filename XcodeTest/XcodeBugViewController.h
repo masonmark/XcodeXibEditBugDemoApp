@@ -16,8 +16,11 @@
     IBOutlet NSBox *dd;
     IBOutlet NSBox *dddd;
     IBOutlet NSBox *amelie;
-    IBOutlet NSBox *zzzz;
+    IBOutlet NSBox *zzzzNERDASS;
     IBOutlet NSBox *terraBONKYDONKY2SSSSSS2;
+    
+    
+    IBOutlet NSBox *yyyyyyy;
 }
 
 @end

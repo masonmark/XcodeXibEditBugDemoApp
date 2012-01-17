@@ -11,11 +11,12 @@
 @interface XcodeBugViewController : NakaharaViewController
 {
     IBOutlet id a0000000a;
-    IBOutlet id a0000000a22222;
-    IBOutlet id a0000000a222222;
-    IBOutlet id a0000000a22222222;
+    IBOutlet id a0000000a2222;
+    IBOutlet id a00000200a;
+    IBOutlet id a00200000a2222;
     IBOutlet NSView *arubaDONKDONK2;    
     IBOutlet NSView *ZEEZOO;    
+    IBOutlet NSView *NURD;
 //    IBOutlet NSView *out10b;
 //    IBOutlet NSView *out10;
 //    IBOutlet NSView *out9;

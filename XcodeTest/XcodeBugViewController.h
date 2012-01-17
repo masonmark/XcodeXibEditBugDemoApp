@@ -10,12 +10,8 @@
 
 @interface XcodeBugViewController : NSViewController
 {
-    IBOutlet NSView *hellbane;
-    IBOutlet NSView *nerdbergf;
-    IBOutlet NSView *donkdonk;
-    IBOutlet NSView *bob;
-    IBOutlet NSView *alice;
-    IBOutlet NSView *nerdbergffff;
+    IBOutlet NSView *aaaFuckYah;
+    IBOutlet NSView *bbbFuckYah;
 
 //    IBOutlet NSView *out10b;
 //    IBOutlet NSView *out10;
@@ -34,3 +30,4 @@
 }
 
 @end
+ 

@@ -77,6 +77,7 @@
 		93A83ED714C533E80093A416 /* NSMutableArray+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB214C533E70093A416 /* NSMutableArray+NakaharaCore.m */; };
 		93A83ED814C533E80093A416 /* NSMutableData+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */; };
 		93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */; };
+		93AB00FE14C54F6600AD2E09 /* NakaharaWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AB00FD14C54F6600AD2E09 /* NakaharaWindowManager.m */; };
 		93C75EF514C54C660027C9FE /* NakaharaKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EB914C54C660027C9FE /* NakaharaKeyboard.m */; };
 		93C75EF614C54C660027C9FE /* NakaharaLabeledListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EBB14C54C660027C9FE /* NakaharaLabeledListView.m */; };
 		93C75EF714C54C660027C9FE /* NakaharaMachProcessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EBF14C54C660027C9FE /* NakaharaMachProcessObserver.m */; };
@@ -266,6 +267,8 @@
 		93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+NakaharaCore.m"; sourceTree = "<group>"; };
 		93A83EB514C533E70093A416 /* NSString+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NakaharaCore.h"; sourceTree = "<group>"; };
 		93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NakaharaCore.m"; sourceTree = "<group>"; };
+		93AB00FC14C54F6600AD2E09 /* NakaharaWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaWindowManager.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaWindowManager.h; sourceTree = "<group>"; };
+		93AB00FD14C54F6600AD2E09 /* NakaharaWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaWindowManager.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaWindowManager.m; sourceTree = "<group>"; };
 		93C75EB814C54C660027C9FE /* NakaharaKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaKeyboard.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaKeyboard.h; sourceTree = "<group>"; };
 		93C75EB914C54C660027C9FE /* NakaharaKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaKeyboard.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaKeyboard.m; sourceTree = "<group>"; };
 		93C75EBA14C54C660027C9FE /* NakaharaLabeledListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaLabeledListView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaLabeledListView.h; sourceTree = "<group>"; };
@@ -521,6 +524,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				93AB00FA14C54F4500AD2E09 /* Seis */,
 				93CCD5D014C54CE000BF40EE /* Cinco */,
 				93C75EB614C54C2E0027C9FE /* Cuatro */,
 				93526BD614C54BA60030CCD5 /* Tres */,
@@ -610,6 +614,15 @@
 			);
 			name = NakaharaCore;
 			path = ../iGetFamily/NakaharaSharedCode/NakaharaCore;
+			sourceTree = "<group>";
+		};
+		93AB00FA14C54F4500AD2E09 /* Seis */ = {
+			isa = PBXGroup;
+			children = (
+				93AB00FC14C54F6600AD2E09 /* NakaharaWindowManager.h */,
+				93AB00FD14C54F6600AD2E09 /* NakaharaWindowManager.m */,
+			);
+			name = Seis;
 			sourceTree = "<group>";
 		};
 		93C75EB614C54C2E0027C9FE /* Cuatro */ = {
@@ -915,6 +928,7 @@
 				93C75F1314C54C660027C9FE /* NakaharaValueTransformer.m in Sources */,
 				93CCD5D614C54CF600BF40EE /* NakaharaViewController.m in Sources */,
 				93CCD5D714C54CF600BF40EE /* NakaharaWindowController.m in Sources */,
+				93AB00FE14C54F6600AD2E09 /* NakaharaWindowManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

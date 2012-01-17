@@ -77,6 +77,37 @@
 		93A83ED714C533E80093A416 /* NSMutableArray+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB214C533E70093A416 /* NSMutableArray+NakaharaCore.m */; };
 		93A83ED814C533E80093A416 /* NSMutableData+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */; };
 		93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */; };
+		93C75EF514C54C660027C9FE /* NakaharaKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EB914C54C660027C9FE /* NakaharaKeyboard.m */; };
+		93C75EF614C54C660027C9FE /* NakaharaLabeledListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EBB14C54C660027C9FE /* NakaharaLabeledListView.m */; };
+		93C75EF714C54C660027C9FE /* NakaharaMachProcessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EBF14C54C660027C9FE /* NakaharaMachProcessObserver.m */; };
+		93C75EF814C54C660027C9FE /* NakaharaNetworkAccessibilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EC114C54C660027C9FE /* NakaharaNetworkAccessibilityManager.m */; };
+		93C75EF914C54C660027C9FE /* NakaharaNetworkAccessibilityTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EC314C54C660027C9FE /* NakaharaNetworkAccessibilityTester.m */; };
+		93C75EFA14C54C660027C9FE /* NakaharaNumbersOnlyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EC514C54C660027C9FE /* NakaharaNumbersOnlyFormatter.m */; };
+		93C75EFB14C54C660027C9FE /* NakaharaOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EC714C54C660027C9FE /* NakaharaOutlineView.m */; };
+		93C75EFC14C54C660027C9FE /* NakaharaPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EC914C54C660027C9FE /* NakaharaPreferencePane.m */; };
+		93C75EFD14C54C660027C9FE /* NakaharaPreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C75ECA14C54C660027C9FE /* NakaharaPreferencePane.xib */; };
+		93C75EFE14C54C660027C9FE /* NakaharaPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75ECC14C54C660027C9FE /* NakaharaPreferences.m */; };
+		93C75EFF14C54C660027C9FE /* NakaharaPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C75ECD14C54C660027C9FE /* NakaharaPreferencesWindow.xib */; };
+		93C75F0014C54C660027C9FE /* NakaharaPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75ECF14C54C660027C9FE /* NakaharaPreferencesWindowController.m */; };
+		93C75F0114C54C660027C9FE /* NakaharaProcessDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75ED114C54C660027C9FE /* NakaharaProcessDescriptor.m */; };
+		93C75F0214C54C660027C9FE /* NakaharaProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75ED314C54C660027C9FE /* NakaharaProcessManager.m */; };
+		93C75F0314C54C660027C9FE /* NakaharaPropertyListObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75ED514C54C660027C9FE /* NakaharaPropertyListObject.m */; };
+		93C75F0414C54C660027C9FE /* NakaharaRegistrationWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93C75ED614C54C660027C9FE /* NakaharaRegistrationWindow.nib */; };
+		93C75F0514C54C660027C9FE /* NakaharaRegistrationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75ED814C54C660027C9FE /* NakaharaRegistrationWindowController.m */; };
+		93C75F0614C54C660027C9FE /* NakaharaSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EDA14C54C660027C9FE /* NakaharaSheet.m */; };
+		93C75F0714C54C660027C9FE /* NakaharaSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C75EDB14C54C660027C9FE /* NakaharaSheet.xib */; };
+		93C75F0814C54C660027C9FE /* NakaharaShrinkingTextDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EDD14C54C660027C9FE /* NakaharaShrinkingTextDisplayer.m */; };
+		93C75F0914C54C660027C9FE /* NakaharaTableColumnDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EDF14C54C660027C9FE /* NakaharaTableColumnDescriptor.m */; };
+		93C75F0A14C54C660027C9FE /* NakaharaTableColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EE114C54C660027C9FE /* NakaharaTableColumnLayout.m */; };
+		93C75F0B14C54C660027C9FE /* NakaharaTableConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EE314C54C660027C9FE /* NakaharaTableConfiguration.m */; };
+		93C75F0C14C54C660027C9FE /* NakaharaTableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EE514C54C660027C9FE /* NakaharaTableHeaderCell.m */; };
+		93C75F0D14C54C660027C9FE /* NakaharaTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EE714C54C660027C9FE /* NakaharaTableHeaderView.m */; };
+		93C75F0E14C54C660027C9FE /* NakaharaTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EE914C54C660027C9FE /* NakaharaTableView.m */; };
+		93C75F0F14C54C660027C9FE /* NakaharaTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EEB14C54C660027C9FE /* NakaharaTask.m */; };
+		93C75F1014C54C660027C9FE /* NakaharaTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EEE14C54C660027C9FE /* NakaharaTextView.m */; };
+		93C75F1114C54C660027C9FE /* NakaharaTroubleshootingReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EF014C54C660027C9FE /* NakaharaTroubleshootingReport.m */; };
+		93C75F1214C54C660027C9FE /* NakaharaURLDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EF214C54C660027C9FE /* NakaharaURLDownloader.m */; };
+		93C75F1314C54C660027C9FE /* NakaharaValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C75EF414C54C660027C9FE /* NakaharaValueTransformer.m */; };
 		93D7454A14C54B3A00DDEF83 /* Mason.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454314C54B3A00DDEF83 /* Mason.m */; };
 		93D7454B14C54B3A00DDEF83 /* NakaharaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454514C54B3A00DDEF83 /* NakaharaAppDelegate.m */; };
 		93D7454C14C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454714C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m */; };
@@ -233,6 +264,67 @@
 		93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+NakaharaCore.m"; sourceTree = "<group>"; };
 		93A83EB514C533E70093A416 /* NSString+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NakaharaCore.h"; sourceTree = "<group>"; };
 		93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NakaharaCore.m"; sourceTree = "<group>"; };
+		93C75EB814C54C660027C9FE /* NakaharaKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaKeyboard.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaKeyboard.h; sourceTree = "<group>"; };
+		93C75EB914C54C660027C9FE /* NakaharaKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaKeyboard.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaKeyboard.m; sourceTree = "<group>"; };
+		93C75EBA14C54C660027C9FE /* NakaharaLabeledListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaLabeledListView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaLabeledListView.h; sourceTree = "<group>"; };
+		93C75EBB14C54C660027C9FE /* NakaharaLabeledListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaLabeledListView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaLabeledListView.m; sourceTree = "<group>"; };
+		93C75EBC14C54C660027C9FE /* NakaharaLengthIsGreaterThanZeroValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaLengthIsGreaterThanZeroValueTransformer.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaLengthIsGreaterThanZeroValueTransformer.h; sourceTree = "<group>"; };
+		93C75EBD14C54C660027C9FE /* NakaharaMacDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaMacDefines.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaMacDefines.h; sourceTree = "<group>"; };
+		93C75EBE14C54C660027C9FE /* NakaharaMachProcessObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaMachProcessObserver.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaMachProcessObserver.h; sourceTree = "<group>"; };
+		93C75EBF14C54C660027C9FE /* NakaharaMachProcessObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaMachProcessObserver.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaMachProcessObserver.m; sourceTree = "<group>"; };
+		93C75EC014C54C660027C9FE /* NakaharaNetworkAccessibilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaNetworkAccessibilityManager.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaNetworkAccessibilityManager.h; sourceTree = "<group>"; };
+		93C75EC114C54C660027C9FE /* NakaharaNetworkAccessibilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaNetworkAccessibilityManager.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaNetworkAccessibilityManager.m; sourceTree = "<group>"; };
+		93C75EC214C54C660027C9FE /* NakaharaNetworkAccessibilityTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaNetworkAccessibilityTester.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaNetworkAccessibilityTester.h; sourceTree = "<group>"; };
+		93C75EC314C54C660027C9FE /* NakaharaNetworkAccessibilityTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaNetworkAccessibilityTester.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaNetworkAccessibilityTester.m; sourceTree = "<group>"; };
+		93C75EC414C54C660027C9FE /* NakaharaNumbersOnlyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaNumbersOnlyFormatter.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaNumbersOnlyFormatter.h; sourceTree = "<group>"; };
+		93C75EC514C54C660027C9FE /* NakaharaNumbersOnlyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaNumbersOnlyFormatter.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaNumbersOnlyFormatter.m; sourceTree = "<group>"; };
+		93C75EC614C54C660027C9FE /* NakaharaOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaOutlineView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaOutlineView.h; sourceTree = "<group>"; };
+		93C75EC714C54C660027C9FE /* NakaharaOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaOutlineView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaOutlineView.m; sourceTree = "<group>"; };
+		93C75EC814C54C660027C9FE /* NakaharaPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaPreferencePane.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferencePane.h; sourceTree = "<group>"; };
+		93C75EC914C54C660027C9FE /* NakaharaPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaPreferencePane.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferencePane.m; sourceTree = "<group>"; };
+		93C75ECA14C54C660027C9FE /* NakaharaPreferencePane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NakaharaPreferencePane.xib; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferencePane.xib; sourceTree = "<group>"; };
+		93C75ECB14C54C660027C9FE /* NakaharaPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaPreferences.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferences.h; sourceTree = "<group>"; };
+		93C75ECC14C54C660027C9FE /* NakaharaPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaPreferences.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferences.m; sourceTree = "<group>"; };
+		93C75ECD14C54C660027C9FE /* NakaharaPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NakaharaPreferencesWindow.xib; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferencesWindow.xib; sourceTree = "<group>"; };
+		93C75ECE14C54C660027C9FE /* NakaharaPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaPreferencesWindowController.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferencesWindowController.h; sourceTree = "<group>"; };
+		93C75ECF14C54C660027C9FE /* NakaharaPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaPreferencesWindowController.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPreferencesWindowController.m; sourceTree = "<group>"; };
+		93C75ED014C54C660027C9FE /* NakaharaProcessDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaProcessDescriptor.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaProcessDescriptor.h; sourceTree = "<group>"; };
+		93C75ED114C54C660027C9FE /* NakaharaProcessDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaProcessDescriptor.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaProcessDescriptor.m; sourceTree = "<group>"; };
+		93C75ED214C54C660027C9FE /* NakaharaProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaProcessManager.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaProcessManager.h; sourceTree = "<group>"; };
+		93C75ED314C54C660027C9FE /* NakaharaProcessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaProcessManager.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaProcessManager.m; sourceTree = "<group>"; };
+		93C75ED414C54C660027C9FE /* NakaharaPropertyListObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaPropertyListObject.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPropertyListObject.h; sourceTree = "<group>"; };
+		93C75ED514C54C660027C9FE /* NakaharaPropertyListObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaPropertyListObject.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaPropertyListObject.m; sourceTree = "<group>"; };
+		93C75ED614C54C660027C9FE /* NakaharaRegistrationWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = NakaharaRegistrationWindow.nib; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaRegistrationWindow.nib; sourceTree = "<group>"; };
+		93C75ED714C54C660027C9FE /* NakaharaRegistrationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaRegistrationWindowController.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaRegistrationWindowController.h; sourceTree = "<group>"; };
+		93C75ED814C54C660027C9FE /* NakaharaRegistrationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaRegistrationWindowController.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaRegistrationWindowController.m; sourceTree = "<group>"; };
+		93C75ED914C54C660027C9FE /* NakaharaSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaSheet.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaSheet.h; sourceTree = "<group>"; };
+		93C75EDA14C54C660027C9FE /* NakaharaSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaSheet.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaSheet.m; sourceTree = "<group>"; };
+		93C75EDB14C54C660027C9FE /* NakaharaSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NakaharaSheet.xib; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaSheet.xib; sourceTree = "<group>"; };
+		93C75EDC14C54C660027C9FE /* NakaharaShrinkingTextDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaShrinkingTextDisplayer.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaShrinkingTextDisplayer.h; sourceTree = "<group>"; };
+		93C75EDD14C54C660027C9FE /* NakaharaShrinkingTextDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaShrinkingTextDisplayer.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaShrinkingTextDisplayer.m; sourceTree = "<group>"; };
+		93C75EDE14C54C660027C9FE /* NakaharaTableColumnDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTableColumnDescriptor.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableColumnDescriptor.h; sourceTree = "<group>"; };
+		93C75EDF14C54C660027C9FE /* NakaharaTableColumnDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTableColumnDescriptor.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableColumnDescriptor.m; sourceTree = "<group>"; };
+		93C75EE014C54C660027C9FE /* NakaharaTableColumnLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTableColumnLayout.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableColumnLayout.h; sourceTree = "<group>"; };
+		93C75EE114C54C660027C9FE /* NakaharaTableColumnLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTableColumnLayout.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableColumnLayout.m; sourceTree = "<group>"; };
+		93C75EE214C54C660027C9FE /* NakaharaTableConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTableConfiguration.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableConfiguration.h; sourceTree = "<group>"; };
+		93C75EE314C54C660027C9FE /* NakaharaTableConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTableConfiguration.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableConfiguration.m; sourceTree = "<group>"; };
+		93C75EE414C54C660027C9FE /* NakaharaTableHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTableHeaderCell.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableHeaderCell.h; sourceTree = "<group>"; };
+		93C75EE514C54C660027C9FE /* NakaharaTableHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTableHeaderCell.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableHeaderCell.m; sourceTree = "<group>"; };
+		93C75EE614C54C660027C9FE /* NakaharaTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTableHeaderView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableHeaderView.h; sourceTree = "<group>"; };
+		93C75EE714C54C660027C9FE /* NakaharaTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTableHeaderView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableHeaderView.m; sourceTree = "<group>"; };
+		93C75EE814C54C660027C9FE /* NakaharaTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTableView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableView.h; sourceTree = "<group>"; };
+		93C75EE914C54C660027C9FE /* NakaharaTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTableView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTableView.m; sourceTree = "<group>"; };
+		93C75EEA14C54C660027C9FE /* NakaharaTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTask.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTask.h; sourceTree = "<group>"; };
+		93C75EEB14C54C660027C9FE /* NakaharaTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTask.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTask.m; sourceTree = "<group>"; };
+		93C75EEC14C54C660027C9FE /* NakaharaTask+ProtectedAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NakaharaTask+ProtectedAPI.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTask+ProtectedAPI.h"; sourceTree = "<group>"; };
+		93C75EED14C54C660027C9FE /* NakaharaTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTextView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTextView.h; sourceTree = "<group>"; };
+		93C75EEE14C54C660027C9FE /* NakaharaTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTextView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTextView.m; sourceTree = "<group>"; };
+		93C75EEF14C54C660027C9FE /* NakaharaTroubleshootingReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaTroubleshootingReport.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTroubleshootingReport.h; sourceTree = "<group>"; };
+		93C75EF014C54C660027C9FE /* NakaharaTroubleshootingReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaTroubleshootingReport.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaTroubleshootingReport.m; sourceTree = "<group>"; };
+		93C75EF114C54C660027C9FE /* NakaharaURLDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaURLDownloader.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaURLDownloader.h; sourceTree = "<group>"; };
+		93C75EF214C54C660027C9FE /* NakaharaURLDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaURLDownloader.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaURLDownloader.m; sourceTree = "<group>"; };
+		93C75EF314C54C660027C9FE /* NakaharaValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaValueTransformer.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaValueTransformer.h; sourceTree = "<group>"; };
+		93C75EF414C54C660027C9FE /* NakaharaValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaValueTransformer.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaValueTransformer.m; sourceTree = "<group>"; };
 		93D7454214C54B3A00DDEF83 /* Mason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mason.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/Mason.h; sourceTree = "<group>"; };
 		93D7454314C54B3A00DDEF83 /* Mason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mason.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/Mason.m; sourceTree = "<group>"; };
 		93D7454414C54B3A00DDEF83 /* NakaharaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaAppDelegate.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAppDelegate.h; sourceTree = "<group>"; };
@@ -423,6 +515,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				93C75EB614C54C2E0027C9FE /* Cuatro */,
 				93526BD614C54BA60030CCD5 /* Tres */,
 				93D7454014C54B0B00DDEF83 /* Dos */,
 				933C8F9F14C54A9100F8765B /* Uno */,
@@ -510,6 +603,74 @@
 			);
 			name = NakaharaCore;
 			path = ../iGetFamily/NakaharaSharedCode/NakaharaCore;
+			sourceTree = "<group>";
+		};
+		93C75EB614C54C2E0027C9FE /* Cuatro */ = {
+			isa = PBXGroup;
+			children = (
+				93C75EB814C54C660027C9FE /* NakaharaKeyboard.h */,
+				93C75EB914C54C660027C9FE /* NakaharaKeyboard.m */,
+				93C75EBA14C54C660027C9FE /* NakaharaLabeledListView.h */,
+				93C75EBB14C54C660027C9FE /* NakaharaLabeledListView.m */,
+				93C75EBC14C54C660027C9FE /* NakaharaLengthIsGreaterThanZeroValueTransformer.h */,
+				93C75EBD14C54C660027C9FE /* NakaharaMacDefines.h */,
+				93C75EBE14C54C660027C9FE /* NakaharaMachProcessObserver.h */,
+				93C75EBF14C54C660027C9FE /* NakaharaMachProcessObserver.m */,
+				93C75EC014C54C660027C9FE /* NakaharaNetworkAccessibilityManager.h */,
+				93C75EC114C54C660027C9FE /* NakaharaNetworkAccessibilityManager.m */,
+				93C75EC214C54C660027C9FE /* NakaharaNetworkAccessibilityTester.h */,
+				93C75EC314C54C660027C9FE /* NakaharaNetworkAccessibilityTester.m */,
+				93C75EC414C54C660027C9FE /* NakaharaNumbersOnlyFormatter.h */,
+				93C75EC514C54C660027C9FE /* NakaharaNumbersOnlyFormatter.m */,
+				93C75EC614C54C660027C9FE /* NakaharaOutlineView.h */,
+				93C75EC714C54C660027C9FE /* NakaharaOutlineView.m */,
+				93C75EC814C54C660027C9FE /* NakaharaPreferencePane.h */,
+				93C75EC914C54C660027C9FE /* NakaharaPreferencePane.m */,
+				93C75ECA14C54C660027C9FE /* NakaharaPreferencePane.xib */,
+				93C75ECB14C54C660027C9FE /* NakaharaPreferences.h */,
+				93C75ECC14C54C660027C9FE /* NakaharaPreferences.m */,
+				93C75ECD14C54C660027C9FE /* NakaharaPreferencesWindow.xib */,
+				93C75ECE14C54C660027C9FE /* NakaharaPreferencesWindowController.h */,
+				93C75ECF14C54C660027C9FE /* NakaharaPreferencesWindowController.m */,
+				93C75ED014C54C660027C9FE /* NakaharaProcessDescriptor.h */,
+				93C75ED114C54C660027C9FE /* NakaharaProcessDescriptor.m */,
+				93C75ED214C54C660027C9FE /* NakaharaProcessManager.h */,
+				93C75ED314C54C660027C9FE /* NakaharaProcessManager.m */,
+				93C75ED414C54C660027C9FE /* NakaharaPropertyListObject.h */,
+				93C75ED514C54C660027C9FE /* NakaharaPropertyListObject.m */,
+				93C75ED614C54C660027C9FE /* NakaharaRegistrationWindow.nib */,
+				93C75ED714C54C660027C9FE /* NakaharaRegistrationWindowController.h */,
+				93C75ED814C54C660027C9FE /* NakaharaRegistrationWindowController.m */,
+				93C75ED914C54C660027C9FE /* NakaharaSheet.h */,
+				93C75EDA14C54C660027C9FE /* NakaharaSheet.m */,
+				93C75EDB14C54C660027C9FE /* NakaharaSheet.xib */,
+				93C75EDC14C54C660027C9FE /* NakaharaShrinkingTextDisplayer.h */,
+				93C75EDD14C54C660027C9FE /* NakaharaShrinkingTextDisplayer.m */,
+				93C75EDE14C54C660027C9FE /* NakaharaTableColumnDescriptor.h */,
+				93C75EDF14C54C660027C9FE /* NakaharaTableColumnDescriptor.m */,
+				93C75EE014C54C660027C9FE /* NakaharaTableColumnLayout.h */,
+				93C75EE114C54C660027C9FE /* NakaharaTableColumnLayout.m */,
+				93C75EE214C54C660027C9FE /* NakaharaTableConfiguration.h */,
+				93C75EE314C54C660027C9FE /* NakaharaTableConfiguration.m */,
+				93C75EE414C54C660027C9FE /* NakaharaTableHeaderCell.h */,
+				93C75EE514C54C660027C9FE /* NakaharaTableHeaderCell.m */,
+				93C75EE614C54C660027C9FE /* NakaharaTableHeaderView.h */,
+				93C75EE714C54C660027C9FE /* NakaharaTableHeaderView.m */,
+				93C75EE814C54C660027C9FE /* NakaharaTableView.h */,
+				93C75EE914C54C660027C9FE /* NakaharaTableView.m */,
+				93C75EEA14C54C660027C9FE /* NakaharaTask.h */,
+				93C75EEB14C54C660027C9FE /* NakaharaTask.m */,
+				93C75EEC14C54C660027C9FE /* NakaharaTask+ProtectedAPI.h */,
+				93C75EED14C54C660027C9FE /* NakaharaTextView.h */,
+				93C75EEE14C54C660027C9FE /* NakaharaTextView.m */,
+				93C75EEF14C54C660027C9FE /* NakaharaTroubleshootingReport.h */,
+				93C75EF014C54C660027C9FE /* NakaharaTroubleshootingReport.m */,
+				93C75EF114C54C660027C9FE /* NakaharaURLDownloader.h */,
+				93C75EF214C54C660027C9FE /* NakaharaURLDownloader.m */,
+				93C75EF314C54C660027C9FE /* NakaharaValueTransformer.h */,
+				93C75EF414C54C660027C9FE /* NakaharaValueTransformer.m */,
+			);
+			name = Cuatro;
 			sourceTree = "<group>";
 		};
 		93D7454014C54B0B00DDEF83 /* Dos */ = {
@@ -609,6 +770,10 @@
 				933C8FAA14C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib in Resources */,
 				93526BFD14C54BC20030CCD5 /* NakaharaDangerWindowBackground.png in Resources */,
 				93526BFF14C54BC20030CCD5 /* NakaharaDangerWindowController.nib in Resources */,
+				93C75EFD14C54C660027C9FE /* NakaharaPreferencePane.xib in Resources */,
+				93C75EFF14C54C660027C9FE /* NakaharaPreferencesWindow.xib in Resources */,
+				93C75F0414C54C660027C9FE /* NakaharaRegistrationWindow.nib in Resources */,
+				93C75F0714C54C660027C9FE /* NakaharaSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +868,33 @@
 				93526C0A14C54BC20030CCD5 /* NakaharaImageAndTextField.m in Sources */,
 				93526C0B14C54BC20030CCD5 /* NakaharaImageView.m in Sources */,
 				93526C0C14C54BC20030CCD5 /* NakaharaIPAddressChecker.m in Sources */,
+				93C75EF514C54C660027C9FE /* NakaharaKeyboard.m in Sources */,
+				93C75EF614C54C660027C9FE /* NakaharaLabeledListView.m in Sources */,
+				93C75EF714C54C660027C9FE /* NakaharaMachProcessObserver.m in Sources */,
+				93C75EF814C54C660027C9FE /* NakaharaNetworkAccessibilityManager.m in Sources */,
+				93C75EF914C54C660027C9FE /* NakaharaNetworkAccessibilityTester.m in Sources */,
+				93C75EFA14C54C660027C9FE /* NakaharaNumbersOnlyFormatter.m in Sources */,
+				93C75EFB14C54C660027C9FE /* NakaharaOutlineView.m in Sources */,
+				93C75EFC14C54C660027C9FE /* NakaharaPreferencePane.m in Sources */,
+				93C75EFE14C54C660027C9FE /* NakaharaPreferences.m in Sources */,
+				93C75F0014C54C660027C9FE /* NakaharaPreferencesWindowController.m in Sources */,
+				93C75F0114C54C660027C9FE /* NakaharaProcessDescriptor.m in Sources */,
+				93C75F0214C54C660027C9FE /* NakaharaProcessManager.m in Sources */,
+				93C75F0314C54C660027C9FE /* NakaharaPropertyListObject.m in Sources */,
+				93C75F0514C54C660027C9FE /* NakaharaRegistrationWindowController.m in Sources */,
+				93C75F0614C54C660027C9FE /* NakaharaSheet.m in Sources */,
+				93C75F0814C54C660027C9FE /* NakaharaShrinkingTextDisplayer.m in Sources */,
+				93C75F0914C54C660027C9FE /* NakaharaTableColumnDescriptor.m in Sources */,
+				93C75F0A14C54C660027C9FE /* NakaharaTableColumnLayout.m in Sources */,
+				93C75F0B14C54C660027C9FE /* NakaharaTableConfiguration.m in Sources */,
+				93C75F0C14C54C660027C9FE /* NakaharaTableHeaderCell.m in Sources */,
+				93C75F0D14C54C660027C9FE /* NakaharaTableHeaderView.m in Sources */,
+				93C75F0E14C54C660027C9FE /* NakaharaTableView.m in Sources */,
+				93C75F0F14C54C660027C9FE /* NakaharaTask.m in Sources */,
+				93C75F1014C54C660027C9FE /* NakaharaTextView.m in Sources */,
+				93C75F1114C54C660027C9FE /* NakaharaTroubleshootingReport.m in Sources */,
+				93C75F1214C54C660027C9FE /* NakaharaURLDownloader.m in Sources */,
+				93C75F1314C54C660027C9FE /* NakaharaValueTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

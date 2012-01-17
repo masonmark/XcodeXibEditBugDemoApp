@@ -17,6 +17,11 @@
 		93018B7314C509EA00F7802A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93018B5314C509EA00F7802A /* Cocoa.framework */; };
 		93018B7B14C509EA00F7802A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93018B7914C509EA00F7802A /* InfoPlist.strings */; };
 		93018B7E14C509EA00F7802A /* XcodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93018B7D14C509EA00F7802A /* XcodeTestTests.m */; };
+		933C8FA614C54AAA00F8765B /* AlertCautionIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA114C54AAA00F8765B /* AlertCautionIcon.icns */; };
+		933C8FA714C54AAA00F8765B /* AlertNoteIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA214C54AAA00F8765B /* AlertNoteIcon.icns */; };
+		933C8FA814C54AAA00F8765B /* AlertStopIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA314C54AAA00F8765B /* AlertStopIcon.icns */; };
+		933C8FA914C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA414C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib */; };
+		933C8FAA14C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933C8FA514C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib */; };
 		9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */; };
 		9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */; };
 		93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E6E14C533E70093A416 /* NakaharaBitField.m */; };
@@ -88,6 +93,11 @@
 		93018B7A14C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93018B7C14C509EA00F7802A /* XcodeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeTestTests.h; sourceTree = "<group>"; };
 		93018B7D14C509EA00F7802A /* XcodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeTestTests.m; sourceTree = "<group>"; };
+		933C8FA114C54AAA00F8765B /* AlertCautionIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertCautionIcon.icns; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/AlertCautionIcon.icns; sourceTree = "<group>"; };
+		933C8FA214C54AAA00F8765B /* AlertNoteIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertNoteIcon.icns; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/AlertNoteIcon.icns; sourceTree = "<group>"; };
+		933C8FA314C54AAA00F8765B /* AlertStopIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertStopIcon.icns; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/AlertStopIcon.icns; sourceTree = "<group>"; };
+		933C8FA414C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "com.nakahara-informatics.nakaharasheet.progress.xib"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/com.nakahara-informatics.nakaharasheet.progress.xib"; sourceTree = "<group>"; };
+		933C8FA514C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "com.nakahara-informatics.nakaharasheet.stringentrysheet.xib"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/com.nakahara-informatics.nakaharasheet.stringentrysheet.xib"; sourceTree = "<group>"; };
 		9385C64214C5396B00D595B8 /* NakaharaFileManager2010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileManager2010.h; sourceTree = "<group>"; };
 		9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileManager2010.m; sourceTree = "<group>"; };
 		9385C64414C5396B00D595B8 /* NakaharaMacVolumeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaMacVolumeList.h; sourceTree = "<group>"; };
@@ -279,6 +289,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		933C8F9F14C54A9100F8765B /* Uno */ = {
+			isa = PBXGroup;
+			children = (
+				933C8FA114C54AAA00F8765B /* AlertCautionIcon.icns */,
+				933C8FA214C54AAA00F8765B /* AlertNoteIcon.icns */,
+				933C8FA314C54AAA00F8765B /* AlertStopIcon.icns */,
+				933C8FA414C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib */,
+				933C8FA514C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib */,
+			);
+			name = Uno;
+			sourceTree = "<group>";
+		};
 		9385C64114C5396B00D595B8 /* NakaharaFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +316,8 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				93D7454014C54B0B00DDEF83 /* New Group */,
+				933C8F9F14C54A9100F8765B /* Uno */,
 			);
 			name = "Partial NakaharaCocoa";
 			sourceTree = "<group>";
@@ -380,6 +404,13 @@
 			path = ../iGetFamily/NakaharaSharedCode/NakaharaCore;
 			sourceTree = "<group>";
 		};
+		93D7454014C54B0B00DDEF83 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -455,6 +486,11 @@
 				93018B6414C509EA00F7802A /* Credits.rtf in Resources */,
 				93018B6A14C509EA00F7802A /* MainMenu.xib in Resources */,
 				93DFB62814C53258003B6F71 /* XcodeBugViewController.xib in Resources */,
+				933C8FA614C54AAA00F8765B /* AlertCautionIcon.icns in Resources */,
+				933C8FA714C54AAA00F8765B /* AlertNoteIcon.icns in Resources */,
+				933C8FA814C54AAA00F8765B /* AlertStopIcon.icns in Resources */,
+				933C8FA914C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib in Resources */,
+				933C8FAA14C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

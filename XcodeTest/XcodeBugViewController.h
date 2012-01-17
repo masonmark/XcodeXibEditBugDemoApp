@@ -10,14 +10,16 @@
 
 @interface XcodeBugViewController : NakaharaViewController
 {
-    IBOutlet NSView *aaaaaaaaaaaaa;
-    IBOutlet NSView *terraBONK;
+    IBOutlet NSView *aaaaaaaaaaaaa1;
+    IBOutlet NSView *aaaaaaaaaaaaa2;
+    IBOutlet NSView *aaaaaaaaaaaaa23;
+    IBOutlet NSView *NOODLE;
+    IBOutlet NSView *NOODLE2;
+    IBOutlet NSView *NOODLE23;
     IBOutlet NSBox *ddd;
     IBOutlet NSBox *dd;
-    IBOutlet NSBox *dddd;
-    IBOutlet NSBox *amelie;
-    IBOutlet NSBox *zzzz;
-    IBOutlet NSBox *terraBONKYDONKY2SSSSSS2;
+    IBOutlet NSBox *zombieDeathWanker;
+    IBOutlet NSBox *zombieDeathWanker1;
 }
 
 @end

@@ -164,6 +164,7 @@
 		933C8FA314C54AAA00F8765B /* AlertStopIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertStopIcon.icns; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/AlertStopIcon.icns; sourceTree = "<group>"; };
 		933C8FA414C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.progress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "com.nakahara-informatics.nakaharasheet.progress.xib"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/com.nakahara-informatics.nakaharasheet.progress.xib"; sourceTree = "<group>"; };
 		933C8FA514C54AAA00F8765B /* com.nakahara-informatics.nakaharasheet.stringentrysheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "com.nakahara-informatics.nakaharasheet.stringentrysheet.xib"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/com.nakahara-informatics.nakaharasheet.stringentrysheet.xib"; sourceTree = "<group>"; };
+		9347203114C5532000C588EF /* README-TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "README-TableView.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/README-TableView.h"; sourceTree = "<group>"; };
 		93526BD814C54BC20030CCD5 /* NakaharaCocoaPrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaCocoaPrefixHeader.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaCocoaPrefixHeader.h; sourceTree = "<group>"; };
 		93526BD914C54BC20030CCD5 /* NakaharaColoredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaColoredView.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaColoredView.h; sourceTree = "<group>"; };
 		93526BDA14C54BC20030CCD5 /* NakaharaColoredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaColoredView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaColoredView.m; sourceTree = "<group>"; };
@@ -496,6 +497,14 @@
 			name = Uno;
 			sourceTree = "<group>";
 		};
+		9347202F14C552E600C588EF /* DEATH1 */ = {
+			isa = PBXGroup;
+			children = (
+				9347203114C5532000C588EF /* README-TableView.h */,
+			);
+			name = DEATH1;
+			sourceTree = "<group>";
+		};
 		93526BD614C54BA60030CCD5 /* Tres */ = {
 			isa = PBXGroup;
 			children = (
@@ -563,6 +572,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				9347202F14C552E600C588EF /* DEATH1 */,
 				935C9EC814C5511A00D2C9D3 /* Nueve */,
 				93E9C9F914C55091009C716B /* Ocho */,
 				93DB812614C54FCB0067E7A7 /* Siete */,

@@ -51,6 +51,7 @@
 		93018B7A14C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93018B7C14C509EA00F7802A /* XcodeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeTestTests.h; sourceTree = "<group>"; };
 		93018B7D14C509EA00F7802A /* XcodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeTestTests.m; sourceTree = "<group>"; };
+		936025F314C555E50064015F /* BREAK-XCODE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BREAK-XCODE.h"; path = "XcodeTest/BREAK-XCODE.h"; sourceTree = "<group>"; };
 		93DFB62414C53258003B6F71 /* XcodeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeBugViewController.h; sourceTree = "<group>"; };
 		93DFB62514C53258003B6F71 /* XcodeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeBugViewController.m; sourceTree = "<group>"; };
 		93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeBugViewController.xib; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		93018B4414C509EA00F7802A = {
 			isa = PBXGroup;
 			children = (
+				936025F314C555E50064015F /* BREAK-XCODE.h */,
 				93018B5914C509EA00F7802A /* XcodeTest */,
 				93018B7614C509EA00F7802A /* XcodeTestTests */,
 				93018B5214C509EA00F7802A /* Frameworks */,

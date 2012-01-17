@@ -122,6 +122,9 @@
 		93DB813514C54FDE0067E7A7 /* NSData+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB813014C54FDE0067E7A7 /* NSData+Nakahara.m */; };
 		93DFB62714C53258003B6F71 /* XcodeBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFB62514C53258003B6F71 /* XcodeBugViewController.m */; };
 		93DFB62814C53258003B6F71 /* XcodeBugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */; };
+		93E9CA0214C550A6009C716B /* NSFileHandle+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9C9FC14C550A6009C716B /* NSFileHandle+Nakahara.m */; };
+		93E9CA0314C550A6009C716B /* NSImage+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9C9FE14C550A6009C716B /* NSImage+Nakahara.m */; };
+		93E9CA0414C550A6009C716B /* NSMutableData+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9CA0014C550A6009C716B /* NSMutableData+Nakahara.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +362,13 @@
 		93DFB62414C53258003B6F71 /* XcodeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeBugViewController.h; sourceTree = "<group>"; };
 		93DFB62514C53258003B6F71 /* XcodeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeBugViewController.m; sourceTree = "<group>"; };
 		93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeBugViewController.xib; sourceTree = "<group>"; };
+		93E9C9FB14C550A6009C716B /* NSFileHandle+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileHandle+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSFileHandle+Nakahara.h"; sourceTree = "<group>"; };
+		93E9C9FC14C550A6009C716B /* NSFileHandle+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileHandle+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSFileHandle+Nakahara.m"; sourceTree = "<group>"; };
+		93E9C9FD14C550A6009C716B /* NSImage+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSImage+Nakahara.h"; sourceTree = "<group>"; };
+		93E9C9FE14C550A6009C716B /* NSImage+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSImage+Nakahara.m"; sourceTree = "<group>"; };
+		93E9C9FF14C550A6009C716B /* NSMutableData+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableData+Nakahara.h"; sourceTree = "<group>"; };
+		93E9CA0014C550A6009C716B /* NSMutableData+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableData+Nakahara.m"; sourceTree = "<group>"; };
+		93E9CA0114C550A6009C716B /* NSMutableString+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableString+Nakahara.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -538,6 +548,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				93E9C9F914C55091009C716B /* Ocho */,
 				93DB812614C54FCB0067E7A7 /* Siete */,
 				93AB00FA14C54F4500AD2E09 /* Seis */,
 				93CCD5D014C54CE000BF40EE /* Cinco */,
@@ -748,6 +759,20 @@
 				93DB813014C54FDE0067E7A7 /* NSData+Nakahara.m */,
 			);
 			name = Siete;
+			sourceTree = "<group>";
+		};
+		93E9C9F914C55091009C716B /* Ocho */ = {
+			isa = PBXGroup;
+			children = (
+				93E9C9FB14C550A6009C716B /* NSFileHandle+Nakahara.h */,
+				93E9C9FC14C550A6009C716B /* NSFileHandle+Nakahara.m */,
+				93E9C9FD14C550A6009C716B /* NSImage+Nakahara.h */,
+				93E9C9FE14C550A6009C716B /* NSImage+Nakahara.m */,
+				93E9C9FF14C550A6009C716B /* NSMutableData+Nakahara.h */,
+				93E9CA0014C550A6009C716B /* NSMutableData+Nakahara.m */,
+				93E9CA0114C550A6009C716B /* NSMutableString+Nakahara.h */,
+			);
+			name = Ocho;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -965,6 +990,9 @@
 				93DB813314C54FDE0067E7A7 /* NSCell+Nakahara.m in Sources */,
 				93DB813414C54FDE0067E7A7 /* NSColor+Nakahara.m in Sources */,
 				93DB813514C54FDE0067E7A7 /* NSData+Nakahara.m in Sources */,
+				93E9CA0214C550A6009C716B /* NSFileHandle+Nakahara.m in Sources */,
+				93E9CA0314C550A6009C716B /* NSImage+Nakahara.m in Sources */,
+				93E9CA0414C550A6009C716B /* NSMutableData+Nakahara.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

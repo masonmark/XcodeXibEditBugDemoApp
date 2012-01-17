@@ -40,6 +40,18 @@
 		93526C0A14C54BC20030CCD5 /* NakaharaImageAndTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF614C54BC20030CCD5 /* NakaharaImageAndTextField.m */; };
 		93526C0B14C54BC20030CCD5 /* NakaharaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF814C54BC20030CCD5 /* NakaharaImageView.m */; };
 		93526C0C14C54BC20030CCD5 /* NakaharaIPAddressChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */; };
+		937D128014C54E71005F09FE /* NakaharaWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D126714C54E71005F09FE /* NakaharaWindowManager.m */; };
+		937D128114C54E71005F09FE /* NakahraLengthIsGreaterThanZeroValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D126814C54E71005F09FE /* NakahraLengthIsGreaterThanZeroValueTransformer.m */; };
+		937D128214C54E71005F09FE /* NSAttributedString+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D126A14C54E71005F09FE /* NSAttributedString+Nakahara.m */; };
+		937D128314C54E71005F09FE /* NSCell+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D126C14C54E71005F09FE /* NSCell+Nakahara.m */; };
+		937D128414C54E71005F09FE /* NSColor+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D126E14C54E71005F09FE /* NSColor+Nakahara.m */; };
+		937D128514C54E71005F09FE /* NSData+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127014C54E71005F09FE /* NSData+Nakahara.m */; };
+		937D128614C54E71005F09FE /* NSFileHandle+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127214C54E71005F09FE /* NSFileHandle+Nakahara.m */; };
+		937D128714C54E71005F09FE /* NSImage+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127414C54E71005F09FE /* NSImage+Nakahara.m */; };
+		937D128814C54E71005F09FE /* NSMutableData+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127614C54E71005F09FE /* NSMutableData+Nakahara.m */; };
+		937D128914C54E71005F09FE /* NSMutableString+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127814C54E71005F09FE /* NSMutableString+Nakahara.m */; };
+		937D128A14C54E71005F09FE /* NSString+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127A14C54E71005F09FE /* NSString+Nakahara.m */; };
+		937D128B14C54E71005F09FE /* NSUserDefaults+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D127C14C54E71005F09FE /* NSUserDefaults+Nakahara.m */; };
 		9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */; };
 		9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */; };
 		93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E6E14C533E70093A416 /* NakaharaBitField.m */; };
@@ -188,6 +200,32 @@
 		93526BF814C54BC20030CCD5 /* NakaharaImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaImageView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageView.m; sourceTree = "<group>"; };
 		93526BF914C54BC20030CCD5 /* NakaharaIPAddressChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaIPAddressChecker.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIPAddressChecker.h; sourceTree = "<group>"; };
 		93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaIPAddressChecker.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIPAddressChecker.m; sourceTree = "<group>"; };
+		937D126614C54E71005F09FE /* NakaharaWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaWindowManager.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaWindowManager.h; sourceTree = "<group>"; };
+		937D126714C54E71005F09FE /* NakaharaWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaWindowManager.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaWindowManager.m; sourceTree = "<group>"; };
+		937D126814C54E71005F09FE /* NakahraLengthIsGreaterThanZeroValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakahraLengthIsGreaterThanZeroValueTransformer.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakahraLengthIsGreaterThanZeroValueTransformer.m; sourceTree = "<group>"; };
+		937D126914C54E71005F09FE /* NSAttributedString+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSAttributedString+Nakahara.h"; sourceTree = "<group>"; };
+		937D126A14C54E71005F09FE /* NSAttributedString+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSAttributedString+Nakahara.m"; sourceTree = "<group>"; };
+		937D126B14C54E71005F09FE /* NSCell+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCell+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSCell+Nakahara.h"; sourceTree = "<group>"; };
+		937D126C14C54E71005F09FE /* NSCell+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSCell+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSCell+Nakahara.m"; sourceTree = "<group>"; };
+		937D126D14C54E71005F09FE /* NSColor+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSColor+Nakahara.h"; sourceTree = "<group>"; };
+		937D126E14C54E71005F09FE /* NSColor+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSColor+Nakahara.m"; sourceTree = "<group>"; };
+		937D126F14C54E71005F09FE /* NSData+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSData+Nakahara.h"; sourceTree = "<group>"; };
+		937D127014C54E71005F09FE /* NSData+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSData+Nakahara.m"; sourceTree = "<group>"; };
+		937D127114C54E71005F09FE /* NSFileHandle+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileHandle+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSFileHandle+Nakahara.h"; sourceTree = "<group>"; };
+		937D127214C54E71005F09FE /* NSFileHandle+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileHandle+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSFileHandle+Nakahara.m"; sourceTree = "<group>"; };
+		937D127314C54E71005F09FE /* NSImage+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSImage+Nakahara.h"; sourceTree = "<group>"; };
+		937D127414C54E71005F09FE /* NSImage+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSImage+Nakahara.m"; sourceTree = "<group>"; };
+		937D127514C54E71005F09FE /* NSMutableData+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableData+Nakahara.h"; sourceTree = "<group>"; };
+		937D127614C54E71005F09FE /* NSMutableData+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableData+Nakahara.m"; sourceTree = "<group>"; };
+		937D127714C54E71005F09FE /* NSMutableString+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableString+Nakahara.h"; sourceTree = "<group>"; };
+		937D127814C54E71005F09FE /* NSMutableString+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableString+Nakahara.m"; sourceTree = "<group>"; };
+		937D127914C54E71005F09FE /* NSString+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSString+Nakahara.h"; sourceTree = "<group>"; };
+		937D127A14C54E71005F09FE /* NSString+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSString+Nakahara.m"; sourceTree = "<group>"; };
+		937D127B14C54E71005F09FE /* NSUserDefaults+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSUserDefaults+Nakahara.h"; sourceTree = "<group>"; };
+		937D127C14C54E71005F09FE /* NSUserDefaults+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSUserDefaults+Nakahara.m"; sourceTree = "<group>"; };
+		937D127D14C54E71005F09FE /* README-NakaharaPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "README-NakaharaPreferences.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/README-NakaharaPreferences.h"; sourceTree = "<group>"; };
+		937D127E14C54E71005F09FE /* README-TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "README-TableView.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/README-TableView.h"; sourceTree = "<group>"; };
+		937D127F14C54E71005F09FE /* README.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = README.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/README.h; sourceTree = "<group>"; };
 		9385C64214C5396B00D595B8 /* NakaharaFileManager2010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileManager2010.h; sourceTree = "<group>"; };
 		9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileManager2010.m; sourceTree = "<group>"; };
 		9385C64414C5396B00D595B8 /* NakaharaMacVolumeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaMacVolumeList.h; sourceTree = "<group>"; };
@@ -506,6 +544,39 @@
 			name = Tres;
 			sourceTree = "<group>";
 		};
+		937D126414C54E54005F09FE /* Seis */ = {
+			isa = PBXGroup;
+			children = (
+				937D126614C54E71005F09FE /* NakaharaWindowManager.h */,
+				937D126714C54E71005F09FE /* NakaharaWindowManager.m */,
+				937D126814C54E71005F09FE /* NakahraLengthIsGreaterThanZeroValueTransformer.m */,
+				937D126914C54E71005F09FE /* NSAttributedString+Nakahara.h */,
+				937D126A14C54E71005F09FE /* NSAttributedString+Nakahara.m */,
+				937D126B14C54E71005F09FE /* NSCell+Nakahara.h */,
+				937D126C14C54E71005F09FE /* NSCell+Nakahara.m */,
+				937D126D14C54E71005F09FE /* NSColor+Nakahara.h */,
+				937D126E14C54E71005F09FE /* NSColor+Nakahara.m */,
+				937D126F14C54E71005F09FE /* NSData+Nakahara.h */,
+				937D127014C54E71005F09FE /* NSData+Nakahara.m */,
+				937D127114C54E71005F09FE /* NSFileHandle+Nakahara.h */,
+				937D127214C54E71005F09FE /* NSFileHandle+Nakahara.m */,
+				937D127314C54E71005F09FE /* NSImage+Nakahara.h */,
+				937D127414C54E71005F09FE /* NSImage+Nakahara.m */,
+				937D127514C54E71005F09FE /* NSMutableData+Nakahara.h */,
+				937D127614C54E71005F09FE /* NSMutableData+Nakahara.m */,
+				937D127714C54E71005F09FE /* NSMutableString+Nakahara.h */,
+				937D127814C54E71005F09FE /* NSMutableString+Nakahara.m */,
+				937D127914C54E71005F09FE /* NSString+Nakahara.h */,
+				937D127A14C54E71005F09FE /* NSString+Nakahara.m */,
+				937D127B14C54E71005F09FE /* NSUserDefaults+Nakahara.h */,
+				937D127C14C54E71005F09FE /* NSUserDefaults+Nakahara.m */,
+				937D127D14C54E71005F09FE /* README-NakaharaPreferences.h */,
+				937D127E14C54E71005F09FE /* README-TableView.h */,
+				937D127F14C54E71005F09FE /* README.h */,
+			);
+			name = Seis;
+			sourceTree = "<group>";
+		};
 		9385C64114C5396B00D595B8 /* NakaharaFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,6 +592,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				937D126414C54E54005F09FE /* Seis */,
 				93CCD5D014C54CE000BF40EE /* Cinco */,
 				93C75EB614C54C2E0027C9FE /* Cuatro */,
 				93526BD614C54BA60030CCD5 /* Tres */,
@@ -915,6 +987,18 @@
 				93C75F1314C54C660027C9FE /* NakaharaValueTransformer.m in Sources */,
 				93CCD5D614C54CF600BF40EE /* NakaharaViewController.m in Sources */,
 				93CCD5D714C54CF600BF40EE /* NakaharaWindowController.m in Sources */,
+				937D128014C54E71005F09FE /* NakaharaWindowManager.m in Sources */,
+				937D128114C54E71005F09FE /* NakahraLengthIsGreaterThanZeroValueTransformer.m in Sources */,
+				937D128214C54E71005F09FE /* NSAttributedString+Nakahara.m in Sources */,
+				937D128314C54E71005F09FE /* NSCell+Nakahara.m in Sources */,
+				937D128414C54E71005F09FE /* NSColor+Nakahara.m in Sources */,
+				937D128514C54E71005F09FE /* NSData+Nakahara.m in Sources */,
+				937D128614C54E71005F09FE /* NSFileHandle+Nakahara.m in Sources */,
+				937D128714C54E71005F09FE /* NSImage+Nakahara.m in Sources */,
+				937D128814C54E71005F09FE /* NSMutableData+Nakahara.m in Sources */,
+				937D128914C54E71005F09FE /* NSMutableString+Nakahara.m in Sources */,
+				937D128A14C54E71005F09FE /* NSString+Nakahara.m in Sources */,
+				937D128B14C54E71005F09FE /* NSUserDefaults+Nakahara.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

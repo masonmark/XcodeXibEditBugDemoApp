@@ -17,6 +17,41 @@
 		93018B7314C509EA00F7802A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93018B5314C509EA00F7802A /* Cocoa.framework */; };
 		93018B7B14C509EA00F7802A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93018B7914C509EA00F7802A /* InfoPlist.strings */; };
 		93018B7E14C509EA00F7802A /* XcodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93018B7D14C509EA00F7802A /* XcodeTestTests.m */; };
+		93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E6E14C533E70093A416 /* NakaharaBitField.m */; };
+		93A83EB814C533E80093A416 /* NakaharaBug3293160Workaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7014C533E70093A416 /* NakaharaBug3293160Workaround.m */; };
+		93A83EB914C533E80093A416 /* NakaharaCoreImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7214C533E70093A416 /* NakaharaCoreImage.m */; };
+		93A83EBA14C533E80093A416 /* NakaharaDataCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7514C533E70093A416 /* NakaharaDataCursor.m */; };
+		93A83EBB14C533E80093A416 /* NakaharaDataQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7714C533E70093A416 /* NakaharaDataQueue.m */; };
+		93A83EBC14C533E80093A416 /* NakaharaError.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7A14C533E70093A416 /* NakaharaError.m */; };
+		93A83EBD14C533E80093A416 /* NakaharaException.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7C14C533E70093A416 /* NakaharaException.m */; };
+		93A83EBE14C533E80093A416 /* NakaharaFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E7E14C533E70093A416 /* NakaharaFileItem.m */; };
+		93A83EBF14C533E80093A416 /* NakaharaFileItemFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8014C533E70093A416 /* NakaharaFileItemFieldSet.m */; };
+		93A83EC014C533E80093A416 /* NakaharaFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8214C533E70093A416 /* NakaharaFunctions.m */; };
+		93A83EC114C533E80093A416 /* NakaharaLineEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8414C533E70093A416 /* NakaharaLineEnumerator.m */; };
+		93A83EC214C533E80093A416 /* NakaharaLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8614C533E70093A416 /* NakaharaLog.m */; };
+		93A83EC314C533E80093A416 /* NakaharaLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8814C533E70093A416 /* NakaharaLogEntry.m */; };
+		93A83EC414C533E80093A416 /* NakaharaLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8A14C533E70093A416 /* NakaharaLogger.m */; };
+		93A83EC514C533E80093A416 /* NakaharaObjectObservationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8C14C533E70093A416 /* NakaharaObjectObservationManager.m */; };
+		93A83EC614C533E80093A416 /* NakaharaObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E8E14C533E70093A416 /* NakaharaObjectSerializer.m */; };
+		93A83EC714C533E80093A416 /* NakaharaOnOffTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9014C533E70093A416 /* NakaharaOnOffTreeNode.m */; };
+		93A83EC814C533E80093A416 /* NakaharaOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9214C533E70093A416 /* NakaharaOperation.m */; };
+		93A83EC914C533E80093A416 /* NakaharaScriptDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9414C533E70093A416 /* NakaharaScriptDescriptor.m */; };
+		93A83ECA14C533E80093A416 /* NakaharaSerializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9614C533E70093A416 /* NakaharaSerializableObject.m */; };
+		93A83ECB14C533E80093A416 /* NakaharaSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9914C533E70093A416 /* NakaharaSerializer.m */; };
+		93A83ECC14C533E80093A416 /* NakaharaSharedMetadataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9B14C533E70093A416 /* NakaharaSharedMetadataCache.m */; };
+		93A83ECD14C533E80093A416 /* NakaharaShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9D14C533E70093A416 /* NakaharaShortcut.m */; };
+		93A83ECE14C533E80093A416 /* NakaharaSoftwareReleaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E9F14C533E70093A416 /* NakaharaSoftwareReleaseInfo.m */; };
+		93A83ECF14C533E80093A416 /* NakaharaSoftwareVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EA114C533E70093A416 /* NakaharaSoftwareVersion.m */; };
+		93A83ED014C533E80093A416 /* NakaharaState.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EA314C533E70093A416 /* NakaharaState.m */; };
+		93A83ED114C533E80093A416 /* NakaharaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EA614C533E70093A416 /* NakaharaTool.m */; };
+		93A83ED214C533E80093A416 /* NakaharaToolOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EA814C533E70093A416 /* NakaharaToolOption.m */; };
+		93A83ED314C533E80093A416 /* NakaharaTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EAA14C533E70093A416 /* NakaharaTreeNode.m */; };
+		93A83ED414C533E80093A416 /* NakaharaTreeNodeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EAC14C533E70093A416 /* NakaharaTreeNodeLoader.m */; };
+		93A83ED514C533E80093A416 /* NSData+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EAE14C533E70093A416 /* NSData+NakaharaCore.m */; };
+		93A83ED614C533E80093A416 /* NSDictionary+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB014C533E70093A416 /* NSDictionary+Nakahara.m */; };
+		93A83ED714C533E80093A416 /* NSMutableArray+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB214C533E70093A416 /* NSMutableArray+NakaharaCore.m */; };
+		93A83ED814C533E80093A416 /* NSMutableData+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */; };
+		93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */; };
 		93DFB62714C53258003B6F71 /* XcodeBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFB62514C53258003B6F71 /* XcodeBugViewController.m */; };
 		93DFB62814C53258003B6F71 /* XcodeBugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */; };
 /* End PBXBuildFile section */
@@ -51,6 +86,80 @@
 		93018B7A14C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93018B7C14C509EA00F7802A /* XcodeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeTestTests.h; sourceTree = "<group>"; };
 		93018B7D14C509EA00F7802A /* XcodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeTestTests.m; sourceTree = "<group>"; };
+		93A83E6D14C533E70093A416 /* NakaharaBitField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaBitField.h; sourceTree = "<group>"; };
+		93A83E6E14C533E70093A416 /* NakaharaBitField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaBitField.m; sourceTree = "<group>"; };
+		93A83E6F14C533E70093A416 /* NakaharaBug3293160Workaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaBug3293160Workaround.h; sourceTree = "<group>"; };
+		93A83E7014C533E70093A416 /* NakaharaBug3293160Workaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaBug3293160Workaround.m; sourceTree = "<group>"; };
+		93A83E7114C533E70093A416 /* NakaharaCoreImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaCoreImage.h; sourceTree = "<group>"; };
+		93A83E7214C533E70093A416 /* NakaharaCoreImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaCoreImage.m; sourceTree = "<group>"; };
+		93A83E7314C533E70093A416 /* NakaharaCorePrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaCorePrefixHeader.h; sourceTree = "<group>"; };
+		93A83E7414C533E70093A416 /* NakaharaDataCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaDataCursor.h; sourceTree = "<group>"; };
+		93A83E7514C533E70093A416 /* NakaharaDataCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaDataCursor.m; sourceTree = "<group>"; };
+		93A83E7614C533E70093A416 /* NakaharaDataQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaDataQueue.h; sourceTree = "<group>"; };
+		93A83E7714C533E70093A416 /* NakaharaDataQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaDataQueue.m; sourceTree = "<group>"; };
+		93A83E7814C533E70093A416 /* NakaharaDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaDefines.h; sourceTree = "<group>"; };
+		93A83E7914C533E70093A416 /* NakaharaError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaError.h; sourceTree = "<group>"; };
+		93A83E7A14C533E70093A416 /* NakaharaError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaError.m; sourceTree = "<group>"; };
+		93A83E7B14C533E70093A416 /* NakaharaException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaException.h; sourceTree = "<group>"; };
+		93A83E7C14C533E70093A416 /* NakaharaException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaException.m; sourceTree = "<group>"; };
+		93A83E7D14C533E70093A416 /* NakaharaFileItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileItem.h; sourceTree = "<group>"; };
+		93A83E7E14C533E70093A416 /* NakaharaFileItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileItem.m; sourceTree = "<group>"; };
+		93A83E7F14C533E70093A416 /* NakaharaFileItemFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileItemFieldSet.h; sourceTree = "<group>"; };
+		93A83E8014C533E70093A416 /* NakaharaFileItemFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileItemFieldSet.m; sourceTree = "<group>"; };
+		93A83E8114C533E70093A416 /* NakaharaFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFunctions.h; sourceTree = "<group>"; };
+		93A83E8214C533E70093A416 /* NakaharaFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFunctions.m; sourceTree = "<group>"; };
+		93A83E8314C533E70093A416 /* NakaharaLineEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaLineEnumerator.h; sourceTree = "<group>"; };
+		93A83E8414C533E70093A416 /* NakaharaLineEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaLineEnumerator.m; sourceTree = "<group>"; };
+		93A83E8514C533E70093A416 /* NakaharaLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaLog.h; sourceTree = "<group>"; };
+		93A83E8614C533E70093A416 /* NakaharaLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaLog.m; sourceTree = "<group>"; };
+		93A83E8714C533E70093A416 /* NakaharaLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaLogEntry.h; sourceTree = "<group>"; };
+		93A83E8814C533E70093A416 /* NakaharaLogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaLogEntry.m; sourceTree = "<group>"; };
+		93A83E8914C533E70093A416 /* NakaharaLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaLogger.h; sourceTree = "<group>"; };
+		93A83E8A14C533E70093A416 /* NakaharaLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaLogger.m; sourceTree = "<group>"; };
+		93A83E8B14C533E70093A416 /* NakaharaObjectObservationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaObjectObservationManager.h; sourceTree = "<group>"; };
+		93A83E8C14C533E70093A416 /* NakaharaObjectObservationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaObjectObservationManager.m; sourceTree = "<group>"; };
+		93A83E8D14C533E70093A416 /* NakaharaObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaObjectSerializer.h; sourceTree = "<group>"; };
+		93A83E8E14C533E70093A416 /* NakaharaObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaObjectSerializer.m; sourceTree = "<group>"; };
+		93A83E8F14C533E70093A416 /* NakaharaOnOffTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaOnOffTreeNode.h; sourceTree = "<group>"; };
+		93A83E9014C533E70093A416 /* NakaharaOnOffTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaOnOffTreeNode.m; sourceTree = "<group>"; };
+		93A83E9114C533E70093A416 /* NakaharaOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaOperation.h; sourceTree = "<group>"; };
+		93A83E9214C533E70093A416 /* NakaharaOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaOperation.m; sourceTree = "<group>"; };
+		93A83E9314C533E70093A416 /* NakaharaScriptDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaScriptDescriptor.h; sourceTree = "<group>"; };
+		93A83E9414C533E70093A416 /* NakaharaScriptDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaScriptDescriptor.m; sourceTree = "<group>"; };
+		93A83E9514C533E70093A416 /* NakaharaSerializableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaSerializableObject.h; sourceTree = "<group>"; };
+		93A83E9614C533E70093A416 /* NakaharaSerializableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaSerializableObject.m; sourceTree = "<group>"; };
+		93A83E9714C533E70093A416 /* NakaharaSerializableProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaSerializableProtocol.h; sourceTree = "<group>"; };
+		93A83E9814C533E70093A416 /* NakaharaSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaSerializer.h; sourceTree = "<group>"; };
+		93A83E9914C533E70093A416 /* NakaharaSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaSerializer.m; sourceTree = "<group>"; };
+		93A83E9A14C533E70093A416 /* NakaharaSharedMetadataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaSharedMetadataCache.h; sourceTree = "<group>"; };
+		93A83E9B14C533E70093A416 /* NakaharaSharedMetadataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaSharedMetadataCache.m; sourceTree = "<group>"; };
+		93A83E9C14C533E70093A416 /* NakaharaShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaShortcut.h; sourceTree = "<group>"; };
+		93A83E9D14C533E70093A416 /* NakaharaShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaShortcut.m; sourceTree = "<group>"; };
+		93A83E9E14C533E70093A416 /* NakaharaSoftwareReleaseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaSoftwareReleaseInfo.h; sourceTree = "<group>"; };
+		93A83E9F14C533E70093A416 /* NakaharaSoftwareReleaseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaSoftwareReleaseInfo.m; sourceTree = "<group>"; };
+		93A83EA014C533E70093A416 /* NakaharaSoftwareVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaSoftwareVersion.h; sourceTree = "<group>"; };
+		93A83EA114C533E70093A416 /* NakaharaSoftwareVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaSoftwareVersion.m; sourceTree = "<group>"; };
+		93A83EA214C533E70093A416 /* NakaharaState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaState.h; sourceTree = "<group>"; };
+		93A83EA314C533E70093A416 /* NakaharaState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaState.m; sourceTree = "<group>"; };
+		93A83EA414C533E70093A416 /* NakaharaTool+ProtectedAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NakaharaTool+ProtectedAPI.h"; sourceTree = "<group>"; };
+		93A83EA514C533E70093A416 /* NakaharaTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaTool.h; sourceTree = "<group>"; };
+		93A83EA614C533E70093A416 /* NakaharaTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaTool.m; sourceTree = "<group>"; };
+		93A83EA714C533E70093A416 /* NakaharaToolOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaToolOption.h; sourceTree = "<group>"; };
+		93A83EA814C533E70093A416 /* NakaharaToolOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaToolOption.m; sourceTree = "<group>"; };
+		93A83EA914C533E70093A416 /* NakaharaTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaTreeNode.h; sourceTree = "<group>"; };
+		93A83EAA14C533E70093A416 /* NakaharaTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaTreeNode.m; sourceTree = "<group>"; };
+		93A83EAB14C533E70093A416 /* NakaharaTreeNodeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaTreeNodeLoader.h; sourceTree = "<group>"; };
+		93A83EAC14C533E70093A416 /* NakaharaTreeNodeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaTreeNodeLoader.m; sourceTree = "<group>"; };
+		93A83EAD14C533E70093A416 /* NSData+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NakaharaCore.h"; sourceTree = "<group>"; };
+		93A83EAE14C533E70093A416 /* NSData+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NakaharaCore.m"; sourceTree = "<group>"; };
+		93A83EAF14C533E70093A416 /* NSDictionary+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Nakahara.h"; sourceTree = "<group>"; };
+		93A83EB014C533E70093A416 /* NSDictionary+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Nakahara.m"; sourceTree = "<group>"; };
+		93A83EB114C533E70093A416 /* NSMutableArray+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NakaharaCore.h"; sourceTree = "<group>"; };
+		93A83EB214C533E70093A416 /* NSMutableArray+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NakaharaCore.m"; sourceTree = "<group>"; };
+		93A83EB314C533E70093A416 /* NSMutableData+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+NakaharaCore.h"; sourceTree = "<group>"; };
+		93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+NakaharaCore.m"; sourceTree = "<group>"; };
+		93A83EB514C533E70093A416 /* NSString+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NakaharaCore.h"; sourceTree = "<group>"; };
+		93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NakaharaCore.m"; sourceTree = "<group>"; };
 		93DFB62414C53258003B6F71 /* XcodeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeBugViewController.h; sourceTree = "<group>"; };
 		93DFB62514C53258003B6F71 /* XcodeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeBugViewController.m; sourceTree = "<group>"; };
 		93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeBugViewController.xib; sourceTree = "<group>"; };
@@ -81,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				93018B5914C509EA00F7802A /* XcodeTest */,
+				93A83E6C14C533E70093A416 /* NakaharaCore */,
 				93018B7614C509EA00F7802A /* XcodeTestTests */,
 				93018B5214C509EA00F7802A /* Frameworks */,
 				93018B5014C509EA00F7802A /* Products */,
@@ -159,6 +269,88 @@
 				93018B7914C509EA00F7802A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93A83E6C14C533E70093A416 /* NakaharaCore */ = {
+			isa = PBXGroup;
+			children = (
+				93A83E6D14C533E70093A416 /* NakaharaBitField.h */,
+				93A83E6E14C533E70093A416 /* NakaharaBitField.m */,
+				93A83E6F14C533E70093A416 /* NakaharaBug3293160Workaround.h */,
+				93A83E7014C533E70093A416 /* NakaharaBug3293160Workaround.m */,
+				93A83E7114C533E70093A416 /* NakaharaCoreImage.h */,
+				93A83E7214C533E70093A416 /* NakaharaCoreImage.m */,
+				93A83E7314C533E70093A416 /* NakaharaCorePrefixHeader.h */,
+				93A83E7414C533E70093A416 /* NakaharaDataCursor.h */,
+				93A83E7514C533E70093A416 /* NakaharaDataCursor.m */,
+				93A83E7614C533E70093A416 /* NakaharaDataQueue.h */,
+				93A83E7714C533E70093A416 /* NakaharaDataQueue.m */,
+				93A83E7814C533E70093A416 /* NakaharaDefines.h */,
+				93A83E7914C533E70093A416 /* NakaharaError.h */,
+				93A83E7A14C533E70093A416 /* NakaharaError.m */,
+				93A83E7B14C533E70093A416 /* NakaharaException.h */,
+				93A83E7C14C533E70093A416 /* NakaharaException.m */,
+				93A83E7D14C533E70093A416 /* NakaharaFileItem.h */,
+				93A83E7E14C533E70093A416 /* NakaharaFileItem.m */,
+				93A83E7F14C533E70093A416 /* NakaharaFileItemFieldSet.h */,
+				93A83E8014C533E70093A416 /* NakaharaFileItemFieldSet.m */,
+				93A83E8114C533E70093A416 /* NakaharaFunctions.h */,
+				93A83E8214C533E70093A416 /* NakaharaFunctions.m */,
+				93A83E8314C533E70093A416 /* NakaharaLineEnumerator.h */,
+				93A83E8414C533E70093A416 /* NakaharaLineEnumerator.m */,
+				93A83E8514C533E70093A416 /* NakaharaLog.h */,
+				93A83E8614C533E70093A416 /* NakaharaLog.m */,
+				93A83E8714C533E70093A416 /* NakaharaLogEntry.h */,
+				93A83E8814C533E70093A416 /* NakaharaLogEntry.m */,
+				93A83E8914C533E70093A416 /* NakaharaLogger.h */,
+				93A83E8A14C533E70093A416 /* NakaharaLogger.m */,
+				93A83E8B14C533E70093A416 /* NakaharaObjectObservationManager.h */,
+				93A83E8C14C533E70093A416 /* NakaharaObjectObservationManager.m */,
+				93A83E8D14C533E70093A416 /* NakaharaObjectSerializer.h */,
+				93A83E8E14C533E70093A416 /* NakaharaObjectSerializer.m */,
+				93A83E8F14C533E70093A416 /* NakaharaOnOffTreeNode.h */,
+				93A83E9014C533E70093A416 /* NakaharaOnOffTreeNode.m */,
+				93A83E9114C533E70093A416 /* NakaharaOperation.h */,
+				93A83E9214C533E70093A416 /* NakaharaOperation.m */,
+				93A83E9314C533E70093A416 /* NakaharaScriptDescriptor.h */,
+				93A83E9414C533E70093A416 /* NakaharaScriptDescriptor.m */,
+				93A83E9514C533E70093A416 /* NakaharaSerializableObject.h */,
+				93A83E9614C533E70093A416 /* NakaharaSerializableObject.m */,
+				93A83E9714C533E70093A416 /* NakaharaSerializableProtocol.h */,
+				93A83E9814C533E70093A416 /* NakaharaSerializer.h */,
+				93A83E9914C533E70093A416 /* NakaharaSerializer.m */,
+				93A83E9A14C533E70093A416 /* NakaharaSharedMetadataCache.h */,
+				93A83E9B14C533E70093A416 /* NakaharaSharedMetadataCache.m */,
+				93A83E9C14C533E70093A416 /* NakaharaShortcut.h */,
+				93A83E9D14C533E70093A416 /* NakaharaShortcut.m */,
+				93A83E9E14C533E70093A416 /* NakaharaSoftwareReleaseInfo.h */,
+				93A83E9F14C533E70093A416 /* NakaharaSoftwareReleaseInfo.m */,
+				93A83EA014C533E70093A416 /* NakaharaSoftwareVersion.h */,
+				93A83EA114C533E70093A416 /* NakaharaSoftwareVersion.m */,
+				93A83EA214C533E70093A416 /* NakaharaState.h */,
+				93A83EA314C533E70093A416 /* NakaharaState.m */,
+				93A83EA414C533E70093A416 /* NakaharaTool+ProtectedAPI.h */,
+				93A83EA514C533E70093A416 /* NakaharaTool.h */,
+				93A83EA614C533E70093A416 /* NakaharaTool.m */,
+				93A83EA714C533E70093A416 /* NakaharaToolOption.h */,
+				93A83EA814C533E70093A416 /* NakaharaToolOption.m */,
+				93A83EA914C533E70093A416 /* NakaharaTreeNode.h */,
+				93A83EAA14C533E70093A416 /* NakaharaTreeNode.m */,
+				93A83EAB14C533E70093A416 /* NakaharaTreeNodeLoader.h */,
+				93A83EAC14C533E70093A416 /* NakaharaTreeNodeLoader.m */,
+				93A83EAD14C533E70093A416 /* NSData+NakaharaCore.h */,
+				93A83EAE14C533E70093A416 /* NSData+NakaharaCore.m */,
+				93A83EAF14C533E70093A416 /* NSDictionary+Nakahara.h */,
+				93A83EB014C533E70093A416 /* NSDictionary+Nakahara.m */,
+				93A83EB114C533E70093A416 /* NSMutableArray+NakaharaCore.h */,
+				93A83EB214C533E70093A416 /* NSMutableArray+NakaharaCore.m */,
+				93A83EB314C533E70093A416 /* NSMutableData+NakaharaCore.h */,
+				93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */,
+				93A83EB514C533E70093A416 /* NSString+NakaharaCore.h */,
+				93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */,
+			);
+			name = NakaharaCore;
+			path = ../iGetFamily/NakaharaSharedCode/NakaharaCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +465,41 @@
 				93018B6014C509EA00F7802A /* main.m in Sources */,
 				93018B6714C509EA00F7802A /* AppDelegate.m in Sources */,
 				93DFB62714C53258003B6F71 /* XcodeBugViewController.m in Sources */,
+				93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */,
+				93A83EB814C533E80093A416 /* NakaharaBug3293160Workaround.m in Sources */,
+				93A83EB914C533E80093A416 /* NakaharaCoreImage.m in Sources */,
+				93A83EBA14C533E80093A416 /* NakaharaDataCursor.m in Sources */,
+				93A83EBB14C533E80093A416 /* NakaharaDataQueue.m in Sources */,
+				93A83EBC14C533E80093A416 /* NakaharaError.m in Sources */,
+				93A83EBD14C533E80093A416 /* NakaharaException.m in Sources */,
+				93A83EBE14C533E80093A416 /* NakaharaFileItem.m in Sources */,
+				93A83EBF14C533E80093A416 /* NakaharaFileItemFieldSet.m in Sources */,
+				93A83EC014C533E80093A416 /* NakaharaFunctions.m in Sources */,
+				93A83EC114C533E80093A416 /* NakaharaLineEnumerator.m in Sources */,
+				93A83EC214C533E80093A416 /* NakaharaLog.m in Sources */,
+				93A83EC314C533E80093A416 /* NakaharaLogEntry.m in Sources */,
+				93A83EC414C533E80093A416 /* NakaharaLogger.m in Sources */,
+				93A83EC514C533E80093A416 /* NakaharaObjectObservationManager.m in Sources */,
+				93A83EC614C533E80093A416 /* NakaharaObjectSerializer.m in Sources */,
+				93A83EC714C533E80093A416 /* NakaharaOnOffTreeNode.m in Sources */,
+				93A83EC814C533E80093A416 /* NakaharaOperation.m in Sources */,
+				93A83EC914C533E80093A416 /* NakaharaScriptDescriptor.m in Sources */,
+				93A83ECA14C533E80093A416 /* NakaharaSerializableObject.m in Sources */,
+				93A83ECB14C533E80093A416 /* NakaharaSerializer.m in Sources */,
+				93A83ECC14C533E80093A416 /* NakaharaSharedMetadataCache.m in Sources */,
+				93A83ECD14C533E80093A416 /* NakaharaShortcut.m in Sources */,
+				93A83ECE14C533E80093A416 /* NakaharaSoftwareReleaseInfo.m in Sources */,
+				93A83ECF14C533E80093A416 /* NakaharaSoftwareVersion.m in Sources */,
+				93A83ED014C533E80093A416 /* NakaharaState.m in Sources */,
+				93A83ED114C533E80093A416 /* NakaharaTool.m in Sources */,
+				93A83ED214C533E80093A416 /* NakaharaToolOption.m in Sources */,
+				93A83ED314C533E80093A416 /* NakaharaTreeNode.m in Sources */,
+				93A83ED414C533E80093A416 /* NakaharaTreeNodeLoader.m in Sources */,
+				93A83ED514C533E80093A416 /* NSData+NakaharaCore.m in Sources */,
+				93A83ED614C533E80093A416 /* NSDictionary+Nakahara.m in Sources */,
+				93A83ED714C533E80093A416 /* NSMutableArray+NakaharaCore.m in Sources */,
+				93A83ED814C533E80093A416 /* NSMutableData+NakaharaCore.m in Sources */,
+				93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

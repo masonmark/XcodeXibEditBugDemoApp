@@ -59,6 +59,10 @@
 		93A83ED714C533E80093A416 /* NSMutableArray+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB214C533E70093A416 /* NSMutableArray+NakaharaCore.m */; };
 		93A83ED814C533E80093A416 /* NSMutableData+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */; };
 		93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */; };
+		93D7454A14C54B3A00DDEF83 /* Mason.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454314C54B3A00DDEF83 /* Mason.m */; };
+		93D7454B14C54B3A00DDEF83 /* NakaharaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454514C54B3A00DDEF83 /* NakaharaAppDelegate.m */; };
+		93D7454C14C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454714C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m */; };
+		93D7454D14C54B3A00DDEF83 /* NakaharaAuthenticatedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7454914C54B3A00DDEF83 /* NakaharaAuthenticatedTask.m */; };
 		93DFB62714C53258003B6F71 /* XcodeBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFB62514C53258003B6F71 /* XcodeBugViewController.m */; };
 		93DFB62814C53258003B6F71 /* XcodeBugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */; };
 /* End PBXBuildFile section */
@@ -176,6 +180,14 @@
 		93A83EB414C533E70093A416 /* NSMutableData+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+NakaharaCore.m"; sourceTree = "<group>"; };
 		93A83EB514C533E70093A416 /* NSString+NakaharaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NakaharaCore.h"; sourceTree = "<group>"; };
 		93A83EB614C533E70093A416 /* NSString+NakaharaCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NakaharaCore.m"; sourceTree = "<group>"; };
+		93D7454214C54B3A00DDEF83 /* Mason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mason.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/Mason.h; sourceTree = "<group>"; };
+		93D7454314C54B3A00DDEF83 /* Mason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mason.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/Mason.m; sourceTree = "<group>"; };
+		93D7454414C54B3A00DDEF83 /* NakaharaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaAppDelegate.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAppDelegate.h; sourceTree = "<group>"; };
+		93D7454514C54B3A00DDEF83 /* NakaharaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaAppDelegate.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAppDelegate.m; sourceTree = "<group>"; };
+		93D7454614C54B3A00DDEF83 /* NakaharaAppleScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaAppleScriptRunner.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAppleScriptRunner.h; sourceTree = "<group>"; };
+		93D7454714C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaAppleScriptRunner.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAppleScriptRunner.m; sourceTree = "<group>"; };
+		93D7454814C54B3A00DDEF83 /* NakaharaAuthenticatedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaAuthenticatedTask.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAuthenticatedTask.h; sourceTree = "<group>"; };
+		93D7454914C54B3A00DDEF83 /* NakaharaAuthenticatedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaAuthenticatedTask.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaAuthenticatedTask.m; sourceTree = "<group>"; };
 		93DFB62414C53258003B6F71 /* XcodeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeBugViewController.h; sourceTree = "<group>"; };
 		93DFB62514C53258003B6F71 /* XcodeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeBugViewController.m; sourceTree = "<group>"; };
 		93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeBugViewController.xib; sourceTree = "<group>"; };
@@ -316,7 +328,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				93D7454014C54B0B00DDEF83 /* New Group */,
+				93D7454014C54B0B00DDEF83 /* Dos */,
 				933C8F9F14C54A9100F8765B /* Uno */,
 			);
 			name = "Partial NakaharaCocoa";
@@ -404,11 +416,19 @@
 			path = ../iGetFamily/NakaharaSharedCode/NakaharaCore;
 			sourceTree = "<group>";
 		};
-		93D7454014C54B0B00DDEF83 /* New Group */ = {
+		93D7454014C54B0B00DDEF83 /* Dos */ = {
 			isa = PBXGroup;
 			children = (
+				93D7454214C54B3A00DDEF83 /* Mason.h */,
+				93D7454314C54B3A00DDEF83 /* Mason.m */,
+				93D7454414C54B3A00DDEF83 /* NakaharaAppDelegate.h */,
+				93D7454514C54B3A00DDEF83 /* NakaharaAppDelegate.m */,
+				93D7454614C54B3A00DDEF83 /* NakaharaAppleScriptRunner.h */,
+				93D7454714C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m */,
+				93D7454814C54B3A00DDEF83 /* NakaharaAuthenticatedTask.h */,
+				93D7454914C54B3A00DDEF83 /* NakaharaAuthenticatedTask.m */,
 			);
-			name = "New Group";
+			name = Dos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,6 +585,10 @@
 				93A83ED914C533E80093A416 /* NSString+NakaharaCore.m in Sources */,
 				9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */,
 				9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */,
+				93D7454A14C54B3A00DDEF83 /* Mason.m in Sources */,
+				93D7454B14C54B3A00DDEF83 /* NakaharaAppDelegate.m in Sources */,
+				93D7454C14C54B3A00DDEF83 /* NakaharaAppleScriptRunner.m in Sources */,
+				93D7454D14C54B3A00DDEF83 /* NakaharaAuthenticatedTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

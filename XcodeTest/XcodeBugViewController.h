@@ -12,9 +12,11 @@
 {
     IBOutlet NSView *assConker;
     IBOutlet NSView *uno;
-    IBOutlet NSView *hooters;
+    IBOutlet NSView *cowabunga;
+    IBOutlet NSView *bungabunga;
     IBOutlet NSView *knockers;
     IBOutlet NSView *stalkers;
+    IBOutlet NSView *brainDoobieag;
     
 //    IBOutlet NSView *out10b;
 //    IBOutlet NSView *out10;

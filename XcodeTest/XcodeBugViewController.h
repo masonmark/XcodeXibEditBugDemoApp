@@ -6,21 +6,23 @@
 //  Copyright (c) 2012 Nakahara Informatics, Inc. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import "NakaharaViewController.h"
 
-@interface XcodeBugViewController : NSViewController
+@interface XcodeBugViewController : NakaharaViewController
 {
-    IBOutlet NSView *aaaKONK;
-    IBOutlet NSBox  *asssssHOLE;
-    IBOutlet NSView *bbbbBOODLE;
-    IBOutlet NSView *aaaaaaaaaaaFUck;
-    IBOutlet NSView *snigger;
-    IBOutlet NSView *giggle;
-    IBOutlet NSView *bcgawk;
-    IBOutlet NSView *ccccccfuk;
+    
+    IBOutlet NSView *aaaaaaaaaaaaaa1;
+    IBOutlet NSView *aaaaaaaaaaaaaaa1;
+    
+    
+    
     IBOutlet NSView *aLALALALA;
     IBOutlet NSView *crackenHorfen;
-    
+    IBOutlet NSView *NickleDoodleDandy;
+    IBOutlet NSView *snee;
+    IBOutlet NSView *snee2;
+    IBOutlet NSView *arubaDONKDONK;    
+    IBOutlet NSView *arubaDONKDONK2;    
 //    IBOutlet NSView *out10b;
 //    IBOutlet NSView *out10;
 //    IBOutlet NSView *out9;

@@ -195,6 +195,7 @@
 		93018B4414C509EA00F7802A = {
 			isa = PBXGroup;
 			children = (
+				9398550E14C53F580081AA30 /* Partial NakaharaCocoa */,
 				9385C64114C5396B00D595B8 /* NakaharaFoundation */,
 				93018B5914C509EA00F7802A /* XcodeTest */,
 				93A83E6C14C533E70093A416 /* NakaharaCore */,
@@ -288,6 +289,13 @@
 			);
 			name = NakaharaFoundation;
 			path = ../iGetFamily/NakaharaSharedCode/NakaharaFoundation;
+			sourceTree = "<group>";
+		};
+		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Partial NakaharaCocoa";
 			sourceTree = "<group>";
 		};
 		93A83E6C14C533E70093A416 /* NakaharaCore */ = {

@@ -17,6 +17,8 @@
 		93018B7314C509EA00F7802A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93018B5314C509EA00F7802A /* Cocoa.framework */; };
 		93018B7B14C509EA00F7802A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93018B7914C509EA00F7802A /* InfoPlist.strings */; };
 		93018B7E14C509EA00F7802A /* XcodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93018B7D14C509EA00F7802A /* XcodeTestTests.m */; };
+		93DFB62714C53258003B6F71 /* XcodeBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFB62514C53258003B6F71 /* XcodeBugViewController.m */; };
+		93DFB62814C53258003B6F71 /* XcodeBugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,23 @@
 		93018B5614C509EA00F7802A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		93018B5714C509EA00F7802A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		93018B5814C509EA00F7802A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		93018B5B14C509EA00F7802A /* XcodeTest-Info.plist */ = {isa = PBXFileReference; path = "XcodeTest-Info.plist"; sourceTree = "<group>"; };
+		93018B5B14C509EA00F7802A /* XcodeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeTest-Info.plist"; sourceTree = "<group>"; };
 		93018B5D14C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93018B5F14C509EA00F7802A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93018B6114C509EA00F7802A /* XcodeTest-Prefix.pch */ = {isa = PBXFileReference; path = "XcodeTest-Prefix.pch"; sourceTree = "<group>"; };
+		93018B6114C509EA00F7802A /* XcodeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeTest-Prefix.pch"; sourceTree = "<group>"; };
 		93018B6314C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		93018B6514C509EA00F7802A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		93018B6514C509EA00F7802A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93018B6614C509EA00F7802A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		93018B6914C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		93018B7014C509EA00F7802A /* XcodeTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93018B7114C509EA00F7802A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		93018B7814C509EA00F7802A /* XcodeTestTests-Info.plist */ = {isa = PBXFileReference; path = "XcodeTestTests-Info.plist"; sourceTree = "<group>"; };
+		93018B7814C509EA00F7802A /* XcodeTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeTestTests-Info.plist"; sourceTree = "<group>"; };
 		93018B7A14C509EA00F7802A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93018B7C14C509EA00F7802A /* XcodeTestTests.h */ = {isa = PBXFileReference; path = XcodeTestTests.h; sourceTree = "<group>"; };
+		93018B7C14C509EA00F7802A /* XcodeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeTestTests.h; sourceTree = "<group>"; };
 		93018B7D14C509EA00F7802A /* XcodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeTestTests.m; sourceTree = "<group>"; };
+		93DFB62414C53258003B6F71 /* XcodeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeBugViewController.h; sourceTree = "<group>"; };
+		93DFB62514C53258003B6F71 /* XcodeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeBugViewController.m; sourceTree = "<group>"; };
+		93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeBugViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				93018B6614C509EA00F7802A /* AppDelegate.m */,
 				93018B6814C509EA00F7802A /* MainMenu.xib */,
 				93018B5A14C509EA00F7802A /* Supporting Files */,
+				93DFB62414C53258003B6F71 /* XcodeBugViewController.h */,
+				93DFB62514C53258003B6F71 /* XcodeBugViewController.m */,
+				93DFB62614C53258003B6F71 /* XcodeBugViewController.xib */,
 			);
 			path = XcodeTest;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				93018B5E14C509EA00F7802A /* InfoPlist.strings in Resources */,
 				93018B6414C509EA00F7802A /* Credits.rtf in Resources */,
 				93018B6A14C509EA00F7802A /* MainMenu.xib in Resources */,
+				93DFB62814C53258003B6F71 /* XcodeBugViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				93018B6014C509EA00F7802A /* main.m in Sources */,
 				93018B6714C509EA00F7802A /* AppDelegate.m in Sources */,
+				93DFB62714C53258003B6F71 /* XcodeBugViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +444,7 @@
 				93018B8314C509EA00F7802A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93018B8414C509EA00F7802A /* Build configuration list for PBXNativeTarget "XcodeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +453,7 @@
 				93018B8614C509EA00F7802A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

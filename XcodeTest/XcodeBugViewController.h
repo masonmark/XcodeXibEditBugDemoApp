@@ -28,6 +28,8 @@
 //    IBOutlet NSView *outlet4;
 //    IBOutlet NSView *outlet5;
 //    IBOutlet NSView *outlet6;
+    
+    IBOutlet NSView *herComesTheBug;
 
 }
 

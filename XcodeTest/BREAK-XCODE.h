@@ -18,7 +18,9 @@
 
     You should see that outlets are no longer showing up in Xcode.
 
-    If you delete this header, the problem will go away.
+    If you delete this header, then quit and relaunch Xcode,  the problem 
+    will go away.  (You have to literally delete the file from disk. It does
+    not need to be included in the project to trigger this bug.)
 
     BONUS BUG: Editing this header within Xcode will cause it to crash or freeze.
 /*

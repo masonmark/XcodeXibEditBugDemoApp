@@ -12,10 +12,12 @@
 {
     IBOutlet NSView *aaaaaaaaaaaaa;
     IBOutlet NSView *terraBONK;
-    IBOutlet NSBox *terraBONKY;
-    IBOutlet NSBox *terraBONKYDONKY;
-    IBOutlet NSBox *terraBONKYDONKY2;
-    IBOutlet NSBox *terraBONKYDONKY22;
+    IBOutlet NSBox *ddd;
+    IBOutlet NSBox *dd;
+    IBOutlet NSBox *dddd;
+    IBOutlet NSBox *amelie;
+    IBOutlet NSBox *zzzz;
+    IBOutlet NSBox *terraBONKYDONKY2SSSSSS2;
 }
 
 @end

@@ -40,6 +40,8 @@
 		93526C0A14C54BC20030CCD5 /* NakaharaImageAndTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF614C54BC20030CCD5 /* NakaharaImageAndTextField.m */; };
 		93526C0B14C54BC20030CCD5 /* NakaharaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BF814C54BC20030CCD5 /* NakaharaImageView.m */; };
 		93526C0C14C54BC20030CCD5 /* NakaharaIPAddressChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */; };
+		935C9ECD14C5512C00D2C9D3 /* NSMutableString+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C9ECA14C5512C00D2C9D3 /* NSMutableString+Nakahara.m */; };
+		935C9ECE14C5512C00D2C9D3 /* NSString+Nakahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C9ECC14C5512C00D2C9D3 /* NSString+Nakahara.m */; };
 		9385C64614C5396B00D595B8 /* NakaharaFileManager2010.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */; };
 		9385C64714C5396B00D595B8 /* NakaharaMacVolumeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9385C64514C5396B00D595B8 /* NakaharaMacVolumeList.m */; };
 		93A83EB714C533E80093A416 /* NakaharaBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A83E6E14C533E70093A416 /* NakaharaBitField.m */; };
@@ -197,6 +199,9 @@
 		93526BF814C54BC20030CCD5 /* NakaharaImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaImageView.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaImageView.m; sourceTree = "<group>"; };
 		93526BF914C54BC20030CCD5 /* NakaharaIPAddressChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NakaharaIPAddressChecker.h; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIPAddressChecker.h; sourceTree = "<group>"; };
 		93526BFA14C54BC20030CCD5 /* NakaharaIPAddressChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NakaharaIPAddressChecker.m; path = ../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NakaharaIPAddressChecker.m; sourceTree = "<group>"; };
+		935C9ECA14C5512C00D2C9D3 /* NSMutableString+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSMutableString+Nakahara.m"; sourceTree = "<group>"; };
+		935C9ECB14C5512C00D2C9D3 /* NSString+Nakahara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Nakahara.h"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSString+Nakahara.h"; sourceTree = "<group>"; };
+		935C9ECC14C5512C00D2C9D3 /* NSString+Nakahara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Nakahara.m"; path = "../iGetFamily/NakaharaSharedCode/NakaharaCocoa/NSString+Nakahara.m"; sourceTree = "<group>"; };
 		9385C64214C5396B00D595B8 /* NakaharaFileManager2010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaFileManager2010.h; sourceTree = "<group>"; };
 		9385C64314C5396B00D595B8 /* NakaharaFileManager2010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakaharaFileManager2010.m; sourceTree = "<group>"; };
 		9385C64414C5396B00D595B8 /* NakaharaMacVolumeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakaharaMacVolumeList.h; sourceTree = "<group>"; };
@@ -533,6 +538,16 @@
 			name = Tres;
 			sourceTree = "<group>";
 		};
+		935C9EC814C5511A00D2C9D3 /* Nueve */ = {
+			isa = PBXGroup;
+			children = (
+				935C9ECA14C5512C00D2C9D3 /* NSMutableString+Nakahara.m */,
+				935C9ECB14C5512C00D2C9D3 /* NSString+Nakahara.h */,
+				935C9ECC14C5512C00D2C9D3 /* NSString+Nakahara.m */,
+			);
+			name = Nueve;
+			sourceTree = "<group>";
+		};
 		9385C64114C5396B00D595B8 /* NakaharaFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,6 +563,7 @@
 		9398550E14C53F580081AA30 /* Partial NakaharaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				935C9EC814C5511A00D2C9D3 /* Nueve */,
 				93E9C9F914C55091009C716B /* Ocho */,
 				93DB812614C54FCB0067E7A7 /* Siete */,
 				93AB00FA14C54F4500AD2E09 /* Seis */,
@@ -993,6 +1009,8 @@
 				93E9CA0214C550A6009C716B /* NSFileHandle+Nakahara.m in Sources */,
 				93E9CA0314C550A6009C716B /* NSImage+Nakahara.m in Sources */,
 				93E9CA0414C550A6009C716B /* NSMutableData+Nakahara.m in Sources */,
+				935C9ECD14C5512C00D2C9D3 /* NSMutableString+Nakahara.m in Sources */,
+				935C9ECE14C5512C00D2C9D3 /* NSString+Nakahara.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
